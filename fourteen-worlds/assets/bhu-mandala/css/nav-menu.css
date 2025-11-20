@@ -1,0 +1,149 @@
+﻿
+ /* ----------------------------------------------------------
+   Nav Bar Menu-Links | <div>  <ul id="nav">
+ ------------------------------------------------------------ */
+
+ #nav {
+	list-style:none;
+	text-align:center;
+	margin:0;
+	padding:0 0 5px 0;
+	border-bottom:1px dotted #369;
+	border-top:1px dotted #369;
+	background-color: transparent;
+	}
+
+ #nav a {
+	display:inline-block;  /* alternative to FLOAT - "inline-block" must be on a-Element */
+	padding:0.3em 0.6em; 	/* spacing height and width of Tabs */
+	margin:5px 0 0 0;
+   	font-size:16px;
+   	font-family: arial, sans-serif;
+	white-space:nowrap;   /* NO line-break between words */
+	color: #111;  /* TEXT-Color of TAB must be on a-Element */
+	background-color:#ddd;  /* background-Color of TAB must be on a-Element */
+    	text-decoration:none; 
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border-right:1px solid #b8b8b8;   /* styling for 3D effect */
+	border-bottom:1px solid #b8b8b8;  /* styling for 3D effect */	
+	transition: .4s background-color;  /* gives background transition bei hover, needs to be in a tag */	
+	}
+
+ #nav li {
+	display:inline; /* alternative to FLOAT - "inline" must be on li-Element */
+	vertical-align: 5px;  /* vertical spacing when browser windows is re-sized smaller, on li-Element */
+	}
+
+ #nav a:hover{color:#fff;background-color:#369;text-decoration:none; /* when mouse is over */ }
+ #nav a:focus{color:#111;background-color:#fff; /* when mouse is released */ }
+ #nav a:active{color:#fff;background-color:#003300; /* when mouse is pressed */ }
+
+
+
+ /* -----------------------------
+       Bottom navi
+ ------------------------------ */
+
+ #bot-navi {
+    height:30px;
+    padding:12px 0;
+    text-align:center;
+    font-size:medium;
+    border-top:1px dotted #369;
+    }
+
+
+ /* -----------------------------
+       General Links 
+ ------------------------------ */
+
+ a:link {color:#0047FF; background-color: transparent; padding:0;} /* No padding here because Grafik Links will be blue border ??? */
+
+ a:visited {color:#000099; background-color: transparent; padding:0;}
+ 
+ a:hover {color:#FFFFFF; background-color:#4F82FF; text-decoration:none; padding: 0;
+ -moz-border-radius: 4px; -webkit-border-radius: 4px; -o-border-radius: 4px; -ms-border-radius:0px 4px; 
+border-radius: 4px; box-shadow: none; text-decoration: none;}
+
+ a:active {color:#CC0000; background-color: transparent; text-decoration:none;}
+
+ a:focus, a:hover, a:active {outline:none; text-decoration:none;}
+
+ a { 	/* "transition" gives background transition bei hover */
+ transition: color .5s ease-out, box-shadow .8s ease-in, opacity .1s;
+ OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px; 
+ -webkit-transition: color .5s ease-out, box-shadow .8s ease-in, opacity .1s;}
+
+
+ /* -----------------------------
+       Scaling Images 
+ ------------------------------ */
+
+img {border:0; outline:0; 
+     vertical-align:middle;  /* verhindert blue hoverline under pic */ 
+    }
+
+
+img.scale { 	/* class works on "img" only */
+  /* corrects inline gap in enclosing div */
+  display: inline-block;
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  width: auto\9; /* ie8+9 */
+  /* lt ie8 */
+  -ms-interpolation-mode: bicubic; 
+  }
+
+.RS img {  	/* class works on "block-elements" only */
+  width:auto;  
+  max-width:40%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  object-fit: contain;
+  border:0;
+  overflow: hidden;
+  text-align:left;
+  border:0; /* Remove border on imgs enclosed in anchors in IE */
+  display: inline-block;
+  }
+
+
+ /* --------------------------------------
+     Backgroud Stretch & img SCALE 
+ -------------------------------------- */
+
+#bg-stretch { 
+	position:fixed; 
+	top:-50%; 
+	left:-50%; 
+	width:200%; 
+	height:200%;
+	}
+
+#bg-stretch img {
+	position:absolute;
+	top:0; 
+	left:0; 
+	right:0; 
+	bottom:0; 
+	margin:auto; 
+	min-width:50%;
+	min-height:50%;
+	}
+
+
+ /* -----------------------
+           Radius 
+ ------------------------ */
+
+.radius {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	box-shadow: 9px 9px 9px -1px #666;
+	-moz-box-shadow: 9px 9px 9px -1px #666; 
+	-webkit-box-shadow: 9px 9px 9px -1px #666;
+	}

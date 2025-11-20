@@ -1,0 +1,48 @@
+﻿
+ /* ----------------------------------------------------------
+   Style-Sheet for: 
+   http://www.iskcon-truth.com/bhu-mandala/jambudvipa1.html
+ ------------------------------------------------------------ */
+
+
+
+/*     Nav-Bar Menu-Links | <div>  <ul id="nav"> 
+ ------------------------------------------------------ */
+
+  #nav {
+	list-style:none;
+	text-align:center;
+	margin:0;
+	padding:0 0 5px 0;
+	border-bottom:1px dotted #369;
+	border-top:1px dotted #369;
+	background-color: transparent;
+	margin-right:16px;margin-left:16px;
+	}
+
+ #nav a {
+	display:inline-block;  /* alternative to FLOAT - "inline-block" must be on a-Element */
+	padding:0.3em 0.6em; 	/* spacing height and width of Tabs */
+	margin:5px 0 0 0;
+   	font-size:16px;
+   	font-family: arial, sans-serif;
+	white-space:nowrap;   /* NO line-break between words */
+	color: #111;  /* TEXT-Color of TAB must be on a-Element */
+	background-color:#ddd;  /* background-Color of TAB must be on a-Element */
+    	text-decoration:none; 
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border-right:1px solid #b8b8b8;   /* styling for 3D effect */
+	border-bottom:1px solid #b8b8b8;  /* styling for 3D effect */	
+	transition: .4s background-color;  /* gives background transition bei hover, needs to be in a tag */	
+	}
+
+ #nav li {
+	display:inline; /* alternative to FLOAT - "inline" must be on li-Element */
+	vertical-align: 5px;  /* vertical spacing when browser windows is re-sized smaller, on li-Element */
+	}
+
+ #nav a:hover{color:#fff;background-color:#369;text-decoration:none; /* when mouse is over */ }
+ #nav a:focus{color:#111;background-color:#fff; /* when mouse is released */ }
+ #nav a:active{color:#fff;background-color:#003300; /* when mouse is pressed */ }
