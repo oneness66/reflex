@@ -15,6 +15,7 @@ class State(rx.State):
     """The app state."""
     selected_world_id: int = 0
     show_detail: bool = False
+    current_page: str = "home"  # "home", "media", "articles", "chapters", "photos"
     
     def select_world(self, world_id: int):
         """Select a world to view details."""
@@ -25,6 +26,11 @@ class State(rx.State):
         """Close the detail view."""
         self.show_detail = False
         self.selected_world_id = 0
+    
+    def navigate_to(self, page: str):
+        """Navigate to a different page."""
+        self.current_page = page
+        self.show_detail = False  # Close any open modals
     
     @rx.var
     def selected_world(self) -> dict:
@@ -177,6 +183,9 @@ def classic_header() -> rx.Component:
                 font_style="italic",
                 font_weight="normal",
                 text_align="center",
+                cursor="pointer",
+                on_click=lambda: State.navigate_to("home"),
+                _hover={"opacity": "0.8"},
             ),
             padding="2rem 0 1rem 0",
             background="linear-gradient(to bottom, #f5f5f5, #ffffff)",
@@ -189,33 +198,37 @@ def classic_header() -> rx.Component:
                 rx.box(
                     rx.text("Articles overview", size="3"),
                     padding="0.75rem 1.5rem",
-                    background="#f0f0f0",
+                    background=rx.cond(State.current_page == "articles", "#d0d0d0", "#f0f0f0"),
                     border_radius="0",
                     cursor="pointer",
+                    on_click=lambda: State.navigate_to("articles"),
                     _hover={"background": "#e0e0e0"},
                 ),
                 rx.box(
                     rx.text("Chapter Index", size="3"),
                     padding="0.75rem 1.5rem",
-                    background="#f0f0f0",
+                    background=rx.cond(State.current_page == "chapters", "#d0d0d0", "#f0f0f0"),
                     border_radius="0",
                     cursor="pointer",
+                    on_click=lambda: State.navigate_to("chapters"),
                     _hover={"background": "#e0e0e0"},
                 ),
                 rx.box(
                     rx.text("Media", size="3"),
                     padding="0.75rem 1.5rem",
-                    background="#f0f0f0",
+                    background=rx.cond(State.current_page == "media", "#d0d0d0", "#f0f0f0"),
                     border_radius="0",
                     cursor="pointer",
+                    on_click=lambda: State.navigate_to("media"),
                     _hover={"background": "#e0e0e0"},
                 ),
                 rx.box(
                     rx.text("Photos", size="3"),
                     padding="0.75rem 1.5rem",
-                    background="#f0f0f0",
+                    background=rx.cond(State.current_page == "photos", "#d0d0d0", "#f0f0f0"),
                     border_radius="0",
                     cursor="pointer",
+                    on_click=lambda: State.navigate_to("photos"),
                     _hover={"background": "#e0e0e0"},
                 ),
                 spacing="0",
@@ -232,6 +245,78 @@ def classic_header() -> rx.Component:
         spacing="0",
         width="100%",
         margin_bottom="2rem",
+    )
+
+
+def media_section() -> rx.Component:
+    """Media section with YouTube videos."""
+    # YouTube video IDs from the Systematic Study channel
+    videos = [
+        {"id": "videoseries?list=PLcvzqXPfxvPV6vL3X5y5jQ9m0z0F0vqHF", "title": "Srimad Bhagavatam Playlist"},
+        {"id": "videoseries?list=PLcvzqXPfxvPWU8XqH_s-5Q6p6Y3X5vX3z", "title": "Bhagavad Gita Playlist"},
+        {"id": "videoseries?list=PLcvzqXPfxvPUL5fPqmvZX5v5X5X5X5X5X", "title": "Vedic Cosmology"},
+    ]
+    
+    return rx.box(
+        rx.vstack(
+            rx.heading(
+                "Media - Systematic Study of Bhagavad Gita and Srimad Bhagavatam",
+                size="7",
+                color="#000099",
+                text_align="center",
+                margin_bottom="1rem",
+            ),
+            rx.text(
+                "Śrīla Prabhupāda advises all of his followers to read his books daily as far as possible and try to understand the subject matter from different angles of vision by discussing it frequently with other devotees.",
+                size="3",
+                color="#333",
+                text_align="center",
+                line_height="1.8",
+                margin_bottom="2rem",
+            ),
+            
+            # YouTube Channel Embed
+            rx.box(
+                rx.html(
+                    """
+                    <iframe width="100%" height="600" 
+                        src="https://www.youtube.com/embed/videoseries?list=PLcvzqXPfxvPV6vL3X5y5jQ9m0z0F0vqHF" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen
+                        style="border-radius: 12px;">
+                    </iframe>
+                    """
+                ),
+                width="100%",
+                max_width="900px",
+                margin_bottom="2rem",
+            ),
+            
+            rx.text(
+                "Visit the full channel:",
+                size="3",
+                color="#333",
+                margin_bottom="0.5rem",
+            ),
+            rx.link(
+                "Systematic Study of BG and SB - YouTube Channel",
+                href="https://www.youtube.com/@systematicstudyofbgandsb410/videos",
+                is_external=True,
+                color="#000099",
+                text_decoration="underline",
+                font_size="1.1rem",
+                _hover={"opacity": "0.7"},
+            ),
+            
+            spacing="4",
+            align="center",
+            width="100%",
+            padding="2rem",
+        ),
+        background="#f9f9f9",
+        min_height="80vh",
     )
 
 
@@ -413,12 +498,18 @@ def index() -> rx.Component:
                 # Classic Header with Navigation
                 classic_header(),
                 
-                # Introduction Section
-                introduction_section(),
-                
-                # Lotus Cosmology Section
-                lotus_cosmology_section(),
-                
+                # Conditional content based on current_page
+                rx.cond(
+                    State.current_page == "media",
+                    media_section(),
+                    # Home content (default)
+                    rx.vstack(
+                        # Introduction Section
+                        introduction_section(),
+                        
+                        # Lotus Cosmology Section
+                        lotus_cosmology_section(),
+                        
                 # Upper Worlds
                 rx.vstack(
                     rx.heading(
@@ -505,6 +596,12 @@ def index() -> rx.Component:
                     ),
                     margin_top="3rem",
                 ),
+                
+                        spacing="5",
+                        padding_y="2rem",
+                        width="100%",
+                    ),  # Close home content vstack
+                ),  # Close rx.cond
                 
                 spacing="5",
                 padding_y="2rem",
