@@ -1,0 +1,50 @@
+﻿
+/* ----------------------------------------------------------
+   Style-Sheet for: 
+   http://www.iskcon-truth.com/bhu-mandala/jambudvipa1.html
+ ------------------------------------------------------------ */
+
+
+/*   ROUND CORNERS FOR NESTED DIVs
+---------------------------------------- */
+
+/* Nested DIV corners */
+
+.box {
+   position: relative; /* needed for BG-Stretch */
+   max-width:1132px; /* 1008px plus padding */
+   margin:0 auto;
+   margin-top:25px; margin-bottom:35px;
+   }
+
+.box .content {
+   position: relative;
+   z-index: 2;
+   padding:4px 34px;  /* should be 34px all around, needs 1px minimum height-padding otherwise GAP on footer */
+   margin:0 24px;
+   background: url(../corners/center.png) repeat;
+   }
+
+.box .top, .box .bottom {
+  height: 24px;
+  margin: 0 24px;
+  position: relative;
+  }
+
+.box .top .left, .box .top .right, .box .bottom .left, .box .bottom .right {
+  position: absolute;
+  z-index: 1;
+  height: 24px;
+  width: 24px;
+  }
+
+.box .top .left, .box .bottom .left {left: -24px;}
+.box .top .right, .box .bottom .right {right: -24px;}
+.box .top {background: url(../corners/tm.png) left top repeat-x;}
+.box .top .left {background: url(../corners/tl.png) left top no-repeat;}
+.box .top .right {background: url(../corners/tr.png) right top no-repeat;}
+.box .bottom {background: url(../corners/bm.png) left bottom repeat-x; height: 24px;}
+.box .bottom .left {background: url(../corners/bl.png) left top no-repeat;}
+.box .bottom .right {background: url(../corners/br.png) right bottom no-repeat;}
+.box .left {background: url(../corners/lm.png) left top repeat-y;}
+.box .right {background: url(../corners/rm.png) right top  repeat-y;}

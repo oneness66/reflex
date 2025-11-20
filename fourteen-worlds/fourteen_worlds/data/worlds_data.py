@@ -1,5 +1,55 @@
 """Data for the fourteen worlds (lokas) of Vedic cosmology."""
 
+# Loka-traya - The Three Planetary Systems
+LOKA_TRAYA_INFO = {
+    "title": "Loka-traya - The 3 Planetary Systems",
+    "description": "According to the Purāṇas, this universe is called loka-traya - the three lokas (Bhūrloka, Bhuvarloka and Svarloka), or three spheres consisting of 14 planetary systems.",
+    "upper_world": {
+        "name": "Ūrdhvaloka (ऊर्ध्वलोक)",
+        "description": "The upper world or svarga-lokas - heavenly planets above mount Meru. The celestial world, the realms of the gods or heavens."
+    },
+    "middle_world": {
+        "name": "Madhya-loka",
+        "description": "The middle planetary system, world of mortals, the realms of humans, animals and plants."
+    },
+    "lower_world": {
+        "name": "Adhaloka (अधलोक)",
+        "description": "The lower world, the subterranean heavens (Bila-Swarga), the realms of beings other than humans, like Daityas, Dānavas and Nāgas."
+    },
+    "reference": "SB 1.19.23"
+}
+
+# Lotus Cosmology
+LOTUS_COSMOLOGY = {
+    "description": "From Viṣṇu's navel, the stem of a lotus flower grows, and on that lotus flower the first creature, Brahmā, is born. Within the stem of that lotus flower are fourteen divisions of planetary systems, which are created by Brahmā.",
+    "reference": "SB 3.10.8-9"
+}
+
+# Antarikṣa - Space between worlds
+ANTARIKSA_INFO = {
+    "name": "Antarikṣa",
+    "description": "The space between Bhūrloka and Bhuvarloka. The sun is situated in the middle of the universe, in the area between Bhūrloka and Bhuvarloka, called antarikṣa (outer space).",
+    "details": "Beneath Vidyādhara-loka, Cāraṇaloka and Siddhaloka, in the sky called antarikṣa, are the places of enjoyment for the Yakṣas, Rākṣasas, Piśācas, ghosts and so on.",
+    "reference": "SB 5.24.5"
+}
+
+# Bila-svarga - Subterranean Heavens
+BILA_SVARGA_INFO = {
+    "name": "Bila-svarga",
+    "description": "The heavenly subterranean worlds. The seven lower regions are called bila-svargas (subterranean heavens) and are NOT regarded as planets but as realms or dwelling places below the earth.",
+    "details": "These regions are described as being more opulent than the upper regions of the universe. The life here is of pleasure, wealth and luxury, with no distress. The demon architect Māyā has constructed palaces, temples, houses, yards and hotels with jewels. There is no sunlight in the lower realms, but the darkness is dissipated by the shining of the jewels that the residents wear. There is no old age, no sweat, no disease in the lower realms.",
+    "width": "The width and length of the seven lower planetary systems are calculated to be exactly the same as those of earth."
+}
+
+# Naraka - The Hellish Planets
+NARAKA_INFO = {
+    "name": "Naraka - 28 Hells",
+    "description": "All the hellish planets are situated in the intermediate space between the three worlds and the Garbhodaka Ocean. They lie on the southern side of the universe, beneath Bhū-maṇḍala.",
+    "ruler": "Yamarāja, the very powerful son of the sun-god, resides in Pitṛloka with his personal assistants (Yamadūtas) who bring sinful men to him upon their death for judgment.",
+    "count": 28,
+    "reference": "SB 5.26"
+}
+
 WORLDS_DATA = [
     # Upper Worlds (Svargaloka)
     {
@@ -10,6 +60,7 @@ WORLDS_DATA = [
         "level": 7,
         "description": "The highest planet where Lord Brahmā resides. In Satyaloka the inhabitants are fully cognizant of Vedic wisdom, and thus the mystic cloud of material energy is cleared.",
         "details": "There is neither bereavement, nor old age nor death. There is no pain of any kind, and therefore there are no anxieties. The duration of life in Satyaloka is calculated to be 15,480,000,000,000 years.",
+        "reference": "SB 2.2.27",
         "color": "#FFD700"
     },
     {
@@ -19,7 +70,8 @@ WORLDS_DATA = [
         "category": "upper",
         "level": 6,
         "description": "The planet of those who have performed severe penances. This loka is not inundated at the time of universal devastation.",
-        "details": "The distance from the sun to Tapoloka is about 1,870,400,000 miles. Above Janaloka by 80,000,000 yojanas is Tapoloka.",
+        "details": "The distance from the sun to Tapoloka is about 1,870,400,000 miles. Above Janaloka by 80,000,000 yojanas is Tapoloka. The higher planetary systems, beginning with Maharloka, Janaloka and Tapoloka, are not inundated at the time of devastation.",
+        "reference": "SB 5.1.31",
         "color": "#FFA500"
     },
     {
@@ -30,6 +82,7 @@ WORLDS_DATA = [
         "level": 5,
         "description": "Great saintly persons reside here after death. Wise sages who are perfect celibates perform great sacrifices to the Absolute Truth.",
         "details": "A lively discussion arose among the sages on Janaloka about the nature of the Supreme Absolute Truth. At the time of cosmic devastation, great sages transport themselves to Janaloka, being distressed by the warmth of the blazing fire.",
+        "reference": "SB 10.87.9",
         "color": "#FF8C00"
     },
     {
@@ -40,6 +93,7 @@ WORLDS_DATA = [
         "level": 4,
         "description": "Purified saints like Bhṛgu enjoy a duration of life of 4,300,000,000 solar years. This planet is worshipable even for transcendentally situated saints.",
         "details": "One can live here even at time of partial annihilation of the universe. The annihilation begins with volcanic flames from Shesha Ananta Deva, and when the heat reaches Maharloka, residents pass to Brahmaloka.",
+        "reference": "SB 2.2.24",
         "color": "#FFB347"
     },
     {
@@ -50,6 +104,7 @@ WORLDS_DATA = [
         "level": 3,
         "description": "The heavenly planets including the sun and the moon, ruled by Indra. Fruitive workers elevate themselves to these planets.",
         "details": "The denizens of heaven who live in planetary systems from Svarloka cannot even see Lord Viṣṇu in Śvetadvīpa. At the end of Lord Brahmā's day, everything up to Svargaloka is inundated with water.",
+        "reference": "SB 8.11.5",
         "color": "#87CEEB"
     },
     {
@@ -59,7 +114,8 @@ WORLDS_DATA = [
         "category": "middle",
         "level": 2,
         "description": "The middle portion of the sky where demigods, Gandharvas, Cāraṇas, and Vidyādharas reside. This is the atmospheric region.",
-        "details": "Celestial denizens known as Cāraṇas and Gandharvas, munis and damsels of heavenly planets reside here. This is part of the three primary planetary systems.",
+        "details": "Celestial denizens known as Cāraṇas and Gandharvas, munis and damsels of heavenly planets reside here. This is part of the three primary planetary systems. The middle portion of the sky is called Bhuvarloka.",
+        "reference": "SB 5.20.37",
         "color": "#98D8C8"
     },
     {
@@ -69,7 +125,8 @@ WORLDS_DATA = [
         "category": "middle",
         "level": 1,
         "description": "The earthly planetary system where human beings, animals, and plants reside. This is the world of mortals - the middle planetary system.",
-        "details": "Human beings on earth are situated at the beginning of the intermediate worlds. The earthly planetary system is calculated from here, being called Bhūrloka in the cosmic arrangement.",
+        "details": "Human beings on earth are situated at the beginning of the intermediate worlds. The planetary system known as Bhū-maṇḍala resembles a lotus flower, and its seven islands resemble the whorl of that flower. Jambūdvīpa is situated in the middle.",
+        "reference": "SB 5.16.5",
         "color": "#6B8E23"
     },
     

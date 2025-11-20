@@ -2,7 +2,13 @@
 
 import reflex as rx
 from rxconfig import config
-from .data.worlds_data import WORLDS_DATA, get_world_by_id
+from .data.worlds_data import (
+    WORLDS_DATA, 
+    get_world_by_id,
+    LOKA_TRAYA_INFO,
+    LOTUS_COSMOLOGY,
+    BILA_SVARGA_INFO,
+)
 
 
 class State(rx.State):
@@ -111,6 +117,19 @@ def detail_modal() -> rx.Component:
                         size="3",
                         line_height="1.6",
                     ),
+                    rx.cond(
+                        State.selected_world.get("reference", "") != "",
+                        rx.box(
+                            rx.text(
+                                "Scriptural Reference: ",
+                                State.selected_world.get("reference", ""),
+                                size="2",
+                                color="gray",
+                                font_style="italic",
+                                margin_top="1rem",
+                            ),
+                        ),
+                    ),
                     rx.button(
                         "Close",
                         on_click=State.close_detail,
@@ -145,6 +164,242 @@ def detail_modal() -> rx.Component:
     )
 
 
+def classic_header() -> rx.Component:
+    """Classic styled header with navigation menu matching bhu-mandala format."""
+    return rx.vstack(
+        # Header image/title
+        rx.box(
+            rx.heading(
+                "Sailing to the Fourteen Worlds",
+                size="9",
+                color="#000099",
+                font_family="'Times New Roman', serif",
+                font_style="italic",
+                font_weight="normal",
+                text_align="center",
+            ),
+            padding="2rem 0 1rem 0",
+            background="linear-gradient(to bottom, #f5f5f5, #ffffff)",
+            width="100%",
+        ),
+        
+        # Navigation menu
+        rx.box(
+            rx.hstack(
+                rx.box(
+                    rx.text("Articles overview", size="3"),
+                    padding="0.75rem 1.5rem",
+                    background="#f0f0f0",
+                    border_radius="0",
+                    cursor="pointer",
+                    _hover={"background": "#e0e0e0"},
+                ),
+                rx.box(
+                    rx.text("Chapter Index", size="3"),
+                    padding="0.75rem 1.5rem",
+                    background="#f0f0f0",
+                    border_radius="0",
+                    cursor="pointer",
+                    _hover={"background": "#e0e0e0"},
+                ),
+                rx.box(
+                    rx.text("Media", size="3"),
+                    padding="0.75rem 1.5rem",
+                    background="#f0f0f0",
+                    border_radius="0",
+                    cursor="pointer",
+                    _hover={"background": "#e0e0e0"},
+                ),
+                rx.box(
+                    rx.text("Photos", size="3"),
+                    padding="0.75rem 1.5rem",
+                    background="#f0f0f0",
+                    border_radius="0",
+                    cursor="pointer",
+                    _hover={"background": "#e0e0e0"},
+                ),
+                spacing="0",
+                justify="center",
+                width="100%",
+            ),
+            background="#d8d8d8",
+            padding="0",
+            width="100%",
+            border_top="1px solid #c0c0c0",
+            border_bottom="1px solid #c0c0c0",
+        ),
+        
+        spacing="0",
+        width="100%",
+        margin_bottom="2rem",
+    )
+
+
+def introduction_section() -> rx.Component:
+    """Introduction section with Loka-traya explanation."""
+    return rx.box(
+        rx.vstack(
+            rx.heading(
+                LOKA_TRAYA_INFO["title"],
+                size="7",
+                color="#FFD700",
+                text_align="center",
+                margin_bottom="1rem",
+            ),
+            rx.text(
+                LOKA_TRAYA_INFO["description"],
+                size="3",
+                color="rgba(255, 255, 255, 0.9)",
+                text_align="center",
+                line_height="1.8",
+                margin_bottom="1.5rem",
+            ),
+            
+            # Three worlds explanation
+            rx.hstack(
+                rx.vstack(
+                    rx.heading(
+                        "☀️ " + LOKA_TRAYA_INFO["upper_world"]["name"],
+                        size="4",
+                        color="#FFD700",
+                    ),
+                    rx.text(
+                        LOKA_TRAYA_INFO["upper_world"]["description"],
+                        size="2",
+                        color="rgba(255, 255, 255, 0.8)",
+                        text_align="center",
+                    ),
+                    background="rgba(255, 215, 0, 0.1)",
+                    padding="1rem",
+                    border_radius="8px",
+                    border="1px solid rgba(255, 215, 0, 0.3)",
+                    width="100%",
+                ),
+                rx.vstack(
+                    rx.heading(
+                        "🌍 " + LOKA_TRAYA_INFO["middle_world"]["name"],
+                        size="4",
+                        color="#6B8E23",
+                    ),
+                    rx.text(
+                        LOKA_TRAYA_INFO["middle_world"]["description"],
+                        size="2",
+                        color="rgba(255, 255, 255, 0.8)",
+                        text_align="center",
+                    ),
+                    background="rgba(107, 142, 35, 0.1)",
+                    padding="1rem",
+                    border_radius="8px",
+                    border="1px solid rgba(107, 142, 35, 0.3)",
+                    width="100%",
+                ),
+                rx.vstack(
+                    rx.heading(
+                        "🌑 " + LOKA_TRAYA_INFO["lower_world"]["name"],
+                        size="4",
+                        color="#8B4513",
+                    ),
+                    rx.text(
+                        LOKA_TRAYA_INFO["lower_world"]["description"],
+                        size="2",
+                        color="rgba(255, 255, 255, 0.8)",
+                        text_align="center",
+                    ),
+                    background="rgba(139, 69, 19, 0.1)",
+                    padding="1rem",
+                    border_radius="8px",
+                    border="1px solid rgba(139, 69, 19, 0.3)",
+                    width="100%",
+                ),
+                spacing="4",
+                width="100%",
+                flex_wrap="wrap",
+            ),
+            
+            # Cosmological diagram
+            rx.image(
+                src="/14-lokas.jpg",
+                alt="The Fourteen Lokas",
+                width="100%",
+                max_width="600px",
+                border_radius="12px",
+                box_shadow="0 8px 16px rgba(0, 0, 0, 0.3)",
+                margin_top="2rem",
+            ),
+            
+            spacing="4",
+            align="center",
+            width="100%",
+        ),
+        background="rgba(0, 0, 0, 0.3)",
+        padding="2rem",
+        border_radius="16px",
+        margin_bottom="3rem",
+    )
+
+
+def lotus_cosmology_section() -> rx.Component:
+    """Lotus cosmology explanation with images."""
+    return rx.box(
+        rx.vstack(
+            rx.heading(
+                "🌺 The Lotus Flower Cosmology",
+                size="7",
+                color="#FF69B4",
+                text_align="center",
+                margin_bottom="1rem",
+            ),
+            rx.text(
+                LOTUS_COSMOLOGY["description"],
+                size="3",
+                color="rgba(255, 255, 255, 0.9)",
+                text_align="center",
+                line_height="1.8",
+                margin_bottom="1rem",
+            ),
+            rx.text(
+                f"— {LOTUS_COSMOLOGY['reference']}",
+                size="2",
+                color="rgba(255, 255, 255, 0.7)",
+                font_style="italic",
+                text_align="center",
+                margin_bottom="2rem",
+            ),
+            
+            # Lotus images
+            rx.hstack(
+                rx.image(
+                    src="/vishnu_lotus.jpg",
+                    alt="Lotus flower growing from Lord Viṣṇu's navel",
+                    width="45%",
+                    border_radius="12px",
+                    box_shadow="0 8px 16px rgba(0, 0, 0, 0.3)",
+                ),
+                rx.image(
+                    src="/brahma-lotus.jpg",
+                    alt="Brahma on lotus flower",
+                    width="45%",
+                    border_radius="12px",
+                    box_shadow="0 8px 16px rgba(0, 0, 0, 0.3)",
+                ),
+                spacing="4",
+                width="100%",
+                justify="center",
+                flex_wrap="wrap",
+            ),
+            
+            spacing="4",
+            align="center",
+            width="100%",
+        ),
+        background="rgba(255, 105, 180, 0.1)",
+        padding="2rem",
+        border_radius="16px",
+        border="1px solid rgba(255, 105, 180, 0.3)",
+        margin_bottom="3rem",
+    )
+
+
 def index() -> rx.Component:
     """Main page showing all fourteen worlds."""
     upper_worlds = [w for w in WORLDS_DATA if w["category"] == "upper"]
@@ -155,33 +410,14 @@ def index() -> rx.Component:
         detail_modal(),
         rx.container(
             rx.vstack(
-                # Header
-                rx.vstack(
-                    rx.heading(
-                        "The Fourteen Worlds",
-                        size="9",
-                        background="linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-                        background_clip="text",
-                        font_weight="bold",
-                        text_align="center",
-                    ),
-                    rx.text(
-                        "Catur-daśa-bhuvana - The Fourteen Planetary Systems of Vedic Cosmology",
-                        size="4",
-                        color="gray",
-                        text_align="center",
-                    ),
-                    rx.text(
-                        "Click on any world to learn more",
-                        size="2",
-                        color="gray",
-                        text_align="center",
-                        font_style="italic",
-                    ),
-                    spacing="2",
-                    margin_bottom="2rem",
-                    width="100%",
-                ),
+                # Classic Header with Navigation
+                classic_header(),
+                
+                # Introduction Section
+                introduction_section(),
+                
+                # Lotus Cosmology Section
+                lotus_cosmology_section(),
                 
                 # Upper Worlds
                 rx.vstack(
@@ -240,14 +476,44 @@ def index() -> rx.Component:
                     margin_bottom="2rem",
                 ),
                 
+                # Footer
+                rx.box(
+                    rx.vstack(
+                        rx.divider(margin_y="2rem"),
+                        rx.heading(
+                            "About This Content",
+                            size="5",
+                            color="rgba(255, 255, 255, 0.9)",
+                            text_align="center",
+                        ),
+                        rx.text(
+                            "The information on this website is based on Śrīmad-Bhāgavatam and other Vedic scriptures, describing the fourteen planetary systems (Catur-daśa-bhuvana) that comprise the material universe.",
+                            size="2",
+                            color="rgba(255, 255, 255, 0.7)",
+                            text_align="center",
+                            line_height="1.6",
+                        ),
+                        rx.text(
+                            "Source references include the bhu-mandala cosmological research and vedabase.io scriptural database.",
+                            size="2",
+                            color="rgba(255, 255, 255, 0.6)",
+                            font_style="italic",
+                            text_align="center",
+                        ),
+                        spacing="2",
+                        align="center",
+                    ),
+                    margin_top="3rem",
+                ),
+                
                 spacing="5",
                 padding_y="2rem",
             ),
             max_width="900px",
         ),
-        background="linear-gradient(to bottom, #0f0c29, #302b63, #24243e)",
+        background="#ffffff",
         min_height="100vh",
-        padding="2rem 1rem",
+        padding="0",
     )
 
 

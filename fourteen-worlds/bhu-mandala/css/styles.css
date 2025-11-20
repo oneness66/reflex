@@ -1,0 +1,164 @@
+﻿
+/* ----------------------------------------------------------
+   Style-Sheet for: 
+   http://www.iskcon-truth.com/bhu-mandala/jambudvipa1.html
+ ------------------------------------------------------------ */
+
+
+
+/*       LAYOUT STYLES 
+ ------------------------------ */
+
+.main {
+	max-width:100%;  
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.25em;      /* 1.125em - 115% */ 
+	line-height:1.25;      /* 1.45 - 130% */ 
+	color:#222111;
+	letter-spacing:.00rem;    /* mozilla only */ 
+	overflow-wrap:break-word;
+	word-wrap:break-word;
+	-ms-hyphens: auto; -webkit-hyphens: auto; hyphens: auto; /* NEEDED in HEADER <html class="no-js" lang="en"> */
+	-webkit-font-feature-settings:"opbd","size","liga","clig";
+	-webkit-font-variant-ligatures:common-ligatures;
+	text-rendering:optimizeLegibility
+	font-feature-settings:"opbd","size","liga","clig";
+	font-variant-ligatures:common-ligatures;
+ 	/*  -webkit-font-smoothing: antialiased; */
+  	/*  -moz-osx-font-smoothing: grayscale; */
+	}
+
+#header {
+	max-height:50px;  /* KEINE FESTE HÖHE ANGEBEN */
+	padding-bottom:5px;
+	text-align: center;
+	}
+
+#banner-header {
+	margin:10px 0 1px 0;
+	max-height:138px; /* KEINE FESTE HÖHE ANGEBEN oder weg lassen */
+	padding-bottom:6px;
+	text-align: center;
+	}
+
+#footer {
+    height:30px;
+    padding-top:10px;
+    text-align:center;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 13px;
+    color:#1F5285;
+    border-top:1px dotted #369;
+    }
+
+#bot-navi {
+    height:30px;
+    padding:12px 0;
+    text-align:center;
+    font-size:medium;
+    border-top:1px dotted #369;
+    }
+
+
+
+/* --------------------------------------
+     Backgroud Stretch & img SCALE 
+ -------------------------------------- */
+
+#bg-stretch { 
+	position:fixed; 
+	top:-50%; 
+	left:-50%; 
+	width:200%; 
+	height:200%;
+	}
+#bg-stretch img {
+	position:absolute;
+	top:0; 
+	left:0; 
+	right:0; 
+	bottom:0; 
+	margin:auto; 
+	min-width:50%;
+	min-height:50%;
+	}
+
+/* -----------------------------
+       Scaling Images 
+ ------------------------------ */
+
+img {border:0; outline:0; 
+     margin:6px 0;	
+     vertical-align:middle;  /* verhindert blue hoverline under pic */ 
+    }
+
+img.scale { 	/* class works on "img" only */
+  /* corrects inline gap in enclosing div */
+  display: inline-block;
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  width: auto\9; /* ie8+9 */
+  /* lt ie8 */
+  -ms-interpolation-mode: bicubic; 
+  }
+
+.RS img {  	/* class works on "block-elements" only */
+  width:auto;  
+  max-width:40%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  object-fit: contain;
+  border:0;
+  overflow: hidden;
+  text-align:left;
+  border:0; /* Remove border on imgs enclosed in anchors in IE */
+  display: inline-block;
+  }
+
+
+/* -----------------------------
+       GENERAL LINKS 
+ ------------------------------ */
+
+ a:link {color:#0047FF; background-color: transparent; padding:0;} /* No padding here because Grafik Links will be blue border ??? */
+
+ a:visited {color:#000099; background-color: transparent; padding:0;}
+ 
+ a:hover {color:#FFFFFF; background-color:#4F82FF; text-decoration:none; padding: 0;
+ -moz-border-radius: 4px; -webkit-border-radius: 4px; -o-border-radius: 4px; -ms-border-radius:0px 4px; 
+border-radius: 4px; box-shadow: none; text-decoration: none;}
+
+ a:active {color:#CC0000; background-color: transparent; text-decoration:none;}
+
+ a:focus, a:hover, a:active {outline:none; text-decoration:none;}
+
+ a { 	/* "transition" gives background transition bei hover */
+ transition: color .5s ease-out, box-shadow .8s ease-in, opacity .1s;
+ OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px; 
+ -webkit-transition: color .5s ease-out, box-shadow .8s ease-in, opacity .1s;}
+
+
+/* -----------------------
+           Radius 
+ ------------------------ */
+
+.radius-shadow {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	box-shadow: 9px 9px 9px -1px #666;
+	-moz-box-shadow: 9px 9px 9px -1px #666; 
+	-webkit-box-shadow: 9px 9px 9px -1px #666;
+	}
+
+.radius {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	}
+
+
+
