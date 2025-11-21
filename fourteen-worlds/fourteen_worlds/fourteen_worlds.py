@@ -7,6 +7,7 @@ from .pages.articles import articles_page, article_page
 from .pages.media import media_page
 from .pages.chapters import chapters_page
 from .pages.photos import photos_page
+from .pages.vedic_science import vedic_science_page, vedic_topic_page
 
 app = rx.App(
     stylesheets=[
@@ -20,6 +21,15 @@ app.add_page(articles_page, route="/articles", title="Articles - Fourteen Worlds
 app.add_page(media_page, route="/media", title="Media - Fourteen Worlds")
 app.add_page(chapters_page, route="/chapters", title="Chapters - Fourteen Worlds")
 app.add_page(photos_page, route="/photos", title="Photos - Fourteen Worlds")
+app.add_page(vedic_science_page, route="/vedic-science", title="Vedic Science - Fourteen Worlds")
+
+# Dynamic route for Vedic Science topics
+app.add_page(
+    vedic_topic_page,
+    route="/vedic-science/[topic]",
+    title="Vedic Science Topic - Fourteen Worlds",
+    on_load=State.load_vedic_topic,
+)
 
 # Dynamic route for articles
 app.add_page(

@@ -15,6 +15,9 @@ class State(rx.State):
     article_content: str = ""
     article_name: str = ""
     
+    # For Vedic Science topics
+    vedic_topic: str = ""
+    
     def select_world(self, world_id: int):
         """Select a world to view details."""
         self.selected_world_id = world_id
@@ -79,6 +82,14 @@ class State(rx.State):
         if filename:
             self.load_article_content(filename)
 
+    def load_vedic_topic(self):
+        """Load the vedic topic from the URL."""
+        topic = self.router.page.params.get("topic", "")
+        if topic:
+            self.vedic_topic = topic.replace("-", " ").title()
+        else:
+            self.vedic_topic = "Vedic Science Topic"
+
     
     @rx.var
     def selected_world(self) -> dict:
@@ -86,3 +97,14 @@ class State(rx.State):
         if self.selected_world_id > 0:
             return get_world_by_id(self.selected_world_id)
         return {}
+
+    # Photo Gallery State
+    selected_photo: str = ""
+
+    def set_selected_photo(self, url: str):
+        """Set the selected photo for the lightbox."""
+        self.selected_photo = url
+
+    def clear_selected_photo(self):
+        """Clear the selected photo to close the lightbox."""
+        self.selected_photo = ""
