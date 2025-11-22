@@ -1,5 +1,6 @@
 import reflex as rx
 from ..components.header import tovp_header
+from ..components.video_card import render_video_card
 
 def media_page() -> rx.Component:
     """Media section with YouTube videos."""
@@ -22,69 +23,6 @@ def media_page() -> rx.Component:
             "duration": "15:30"
         }
     ]
-
-    def render_video_card(video):
-        return rx.link(
-            rx.box(
-                rx.box(
-                    rx.image(
-                        src=f"https://img.youtube.com/vi/{video['video_id']}/hqdefault.jpg",
-                        width="100%",
-                        height="auto",
-                        aspect_ratio="16/9",
-                        object_fit="cover",
-                        border_radius="12px",
-                    ),
-                    rx.text(
-                        video["duration"],
-                        background="rgba(0, 0, 0, 0.8)",
-                        color="white",
-                        font_size="0.75rem",
-                        padding="2px 4px",
-                        border_radius="4px",
-                        position="absolute",
-                        bottom="8px",
-                        right="8px",
-                        font_weight="bold",
-                    ),
-                    position="relative",
-                ),
-                rx.vstack(
-                    rx.text(
-                        video["title"],
-                        size="3",
-                        weight="bold",
-                        color="#0f0f0f",
-                        line_height="1.4",
-                        max_height="2.8em",
-                        overflow="hidden",
-                        text_overflow="ellipsis",
-                        display="-webkit-box",
-                        _webkit_line_clamp="2",
-                        _webkit_box_orient="vertical",
-                        margin_top="0.75rem",
-                    ),
-                    rx.hstack(
-                        rx.text(video["views"], size="1", color="#606060"),
-                        rx.text("•", size="1", color="#606060"),
-                        rx.text(video["date"], size="1", color="#606060"),
-                        spacing="1",
-                        align_items="center",
-                    ),
-                    align_items="start",
-                    spacing="1",
-                    width="100%",
-                ),
-                width="100%",
-                cursor="pointer",
-                transition="transform 0.2s",
-                _hover={"transform": "scale(1.02)"},
-            ),
-            href=video["url"],
-            is_external=True,
-            text_decoration="none",
-            width="100%",
-        )
 
     return rx.box(
         rx.vstack(

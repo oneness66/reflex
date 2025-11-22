@@ -1,5 +1,94 @@
 import reflex as rx
 
+def mega_menu_item(title: str, items: list[tuple[str, str, str]]) -> rx.Component:
+    """Render a column in the mega menu with icons."""
+    return rx.vstack(
+        rx.text(title, font_weight="bold", font_size="0.75rem", color="#888", margin_bottom="0.75rem", letter_spacing="0.1em"),
+        rx.vstack(
+            *[
+                rx.link(
+                    rx.hstack(
+                        rx.icon(icon, size=18, color="#3c9fa8", stroke_width=2),
+                        rx.text(label, font_size="0.9rem", font_weight="500"),
+                        align="center",
+                        spacing="3",
+                    ),
+                    href=url,
+                    color="#333",
+                    text_decoration="none",
+                    padding="0.6rem 0.75rem",
+                    width="100%",
+                    border_radius="8px",
+                    _hover={
+                        "background_color": "rgba(60, 159, 168, 0.08)",
+                        "color": "#3c9fa8",
+                        "transform": "translateX(4px)",
+                    },
+                    transition="all 0.2s ease",
+                )
+                for label, url, icon in items
+            ],
+            align="start",
+            spacing="1",
+            width="100%",
+        ),
+        align="start",
+        spacing="1",
+        width="100%",
+    )
+
+def vedic_science_menu() -> rx.Component:
+    """Vedic Science mega menu."""
+    return rx.hover_card.root(
+        rx.hover_card.trigger(
+            rx.link(
+                "VEDIC SCIENCE",
+                href="/vedic-science",
+                color="#333",
+                font_weight="bold",
+                font_size="0.9rem",
+                text_decoration="none",
+                padding="0.5rem",
+                _hover={"color": "#d4af37"},
+            ),
+        ),
+        rx.hover_card.content(
+            rx.box(
+                rx.grid(
+                    # Column 1: Topics & Videos
+                    mega_menu_item(
+                        "TOPICS & VIDEOS",
+                        [
+                            ("VEDIC COSMOLOGY", "/vedic-science/cosmology", "globe"),
+                            ("VEDIC COSMOLOGY VIDEOS", "/vedic-science/cosmology-videos", "play-circle"),
+                            ("VEDIC WISDOM VIDEOS", "/vedic-science/wisdom-videos", "video"),
+                            ("INTELLIGENT DESIGN VIDEOS", "/vedic-science/intelligent-design", "lightbulb"),
+                        ]
+                    ),
+                    # Column 2: Media & Resources
+                    mega_menu_item(
+                        "MEDIA & RESOURCES",
+                        [
+                            ("VEDIC SCIENCE ESSAYS", "/vedic-science/essays", "file-text"),
+                            ("VEDIC SCIENCE CHANNEL", "/vedic-science/channel", "tv"),
+                            ("SHABDA MEDIA", "/vedic-science/shabda-media", "music"),
+                        ]
+                    ),
+                    columns="2",
+                    spacing="6",
+                    width="100%",
+                ),
+                padding="2rem",
+                background="white",
+                box_shadow="0 10px 30px rgba(0,0,0,0.15)",
+                border_top="3px solid #3c9fa8", # Teal accent
+                width="1000px",
+                max_width="90vw",
+            ),
+            side_offset=5,
+        ),
+    )
+
 def tovp_header() -> rx.Component:
     """TOVP styled header with top bar and main navigation."""
     return rx.vstack(
@@ -51,10 +140,13 @@ def tovp_header() -> rx.Component:
                 
                 rx.spacer(),
                 
+
+
+
                 # Navigation Links
                 rx.hstack(
                     rx.link("HOME", href="/", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
-                    rx.link("VEDIC SCIENCE", href="/vedic-science", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
+                    vedic_science_menu(),
                     rx.link("ARTICLES", href="/articles", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
                     rx.link("MEDIA", href="/media", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
                     rx.link("CHAPTERS", href="/chapters", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
