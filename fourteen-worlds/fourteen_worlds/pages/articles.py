@@ -75,6 +75,97 @@ def articles_page() -> rx.Component:
         ("Virāṭ-rūpa - the Lords Cosmic Form", "viratrupa.html", "#6C5CE7"),
         ("NARAKA - punishment in 28 hells", "naraka-punishment.html", "#00B894"),
     ]
+
+    linkedin_articles = [
+        {
+            "title": "Vedic Psychology: Inter-relationship of Vasana and Samskara",
+            "snippet": "Thanks to Suresh Kaukuntly for inspiring me to write about this Ther...",
+            "author": "Radhika Gopinatha dasa",
+            "read_time": "8 min read",
+            "image": "/assets/brahma-lotus.jpg",
+            "link": "https://www.linkedin.com/in/radhika-gopinatha-dasa-447355130/recent-activity/articles/"
+        },
+        {
+            "title": "Message to the Abrahamic Brothers fighting in the Middle East",
+            "snippet": "By capturing hostages, exchanging them, killing people, women and kids...",
+            "author": "Radhika Gopinatha dasa",
+            "read_time": "2 min read",
+            "image": "/assets/vishnu_lotus.jpg",
+            "link": "https://www.linkedin.com/in/radhika-gopinatha-dasa-447355130/recent-activity/articles/"
+        },
+        {
+            "title": "In Heaven or in Hell, I love you Krishna",
+            "snippet": "Death is certain in the material world. And, death is also a gateway with...",
+            "author": "Radhika Gopinatha dasa",
+            "read_time": "14 min read",
+            "image": "/assets/14-lokas.jpg",
+            "link": "https://www.linkedin.com/in/radhika-gopinatha-dasa-447355130/recent-activity/articles/"
+        },
+        {
+            "title": "Duty of saintly persons to save rascals from ruination!",
+            "snippet": "Many books are being written to counter growing atheism and other...",
+            "author": "Radhika Gopinatha dasa",
+            "read_time": "12 min read",
+            "image": "/assets/one-universe.jpg",
+            "link": "https://www.linkedin.com/in/radhika-gopinatha-dasa-447355130/recent-activity/articles/"
+        },
+    ]
+
+    def render_linkedin_card(article):
+        return rx.link(
+            rx.box(
+                rx.image(
+                    src=article["image"],
+                    width="100%",
+                    height="200px",
+                    object_fit="cover",
+                    border_radius="8px 8px 0 0",
+                ),
+                rx.vstack(
+                    rx.heading(
+                        article["title"],
+                        size="4",
+                        font_weight="bold",
+                        color="#333",
+                        line_height="1.4",
+                        margin_bottom="0.5rem",
+                    ),
+                    rx.text(
+                        article["snippet"],
+                        size="2",
+                        color="#666",
+                        margin_bottom="1rem",
+                        line_height="1.5",
+                    ),
+                    rx.hstack(
+                        rx.text(article["author"], font_weight="bold", font_size="0.8rem", color="#555"),
+                        rx.text("•", color="#999"),
+                        rx.text(article["read_time"], font_size="0.8rem", color="#777"),
+                        spacing="2",
+                        align_items="center",
+                    ),
+                    padding="1.5rem",
+                    align_items="start",
+                    spacing="0",
+                    height="100%",
+                ),
+                background="white",
+                border_radius="8px",
+                box_shadow="0 4px 20px rgba(0,0,0,0.08)",
+                transition="transform 0.2s ease, box-shadow 0.2s ease",
+                _hover={
+                    "transform": "translateY(-5px)",
+                    "box_shadow": "0 12px 30px rgba(0,0,0,0.12)",
+                },
+                height="100%",
+                display="flex",
+                flex_direction="column",
+            ),
+            href=article["link"],
+            is_external=True,
+            text_decoration="none",
+            width="100%",
+        )
     
     return rx.box(
         rx.vstack(
@@ -121,6 +212,21 @@ def articles_page() -> rx.Component:
                         text_align="center",
                         margin_y="3rem",
                         max_width="800px",
+                    ),
+                    
+                    rx.divider(margin_bottom="3rem"),
+
+                    # Recent Articles Section (LinkedIn)
+                    rx.box(
+                        rx.heading("RECENT ARTICLES", size="6", color="#333", margin_bottom="1.5rem", border_bottom="2px solid #gold"),
+                        rx.grid(
+                            *[render_linkedin_card(article) for article in linkedin_articles],
+                            columns=rx.breakpoints(initial="1", sm="2"),
+                            spacing="6",
+                            width="100%",
+                        ),
+                        margin_bottom="4rem",
+                        width="100%",
                     ),
                     
                     rx.divider(margin_bottom="3rem"),
