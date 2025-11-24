@@ -1,0 +1,205 @@
+transcripts = [
+  {
+    "title": "Bhagavad-gītā Introduction",
+    "url": "https://vedabase.io/en/library/transcripts/660219bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.7–11",
+    "url": "https://vedabase.io/en/library/transcripts/660302bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.11",
+    "url": "https://vedabase.io/en/library/transcripts/660304bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.12",
+    "url": "https://vedabase.io/en/library/transcripts/660307bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.12",
+    "url": "https://vedabase.io/en/library/transcripts/660309bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.13",
+    "url": "https://vedabase.io/en/library/transcripts/660311bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.44–45",
+    "url": "https://vedabase.io/en/library/transcripts/660325bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.46–47",
+    "url": "https://vedabase.io/en/library/transcripts/660328bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Purport to Bhajahū Re Mana",
+    "url": "https://vedabase.io/en/library/transcripts/660330pu-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.48–49",
+    "url": "https://vedabase.io/en/library/transcripts/660401bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.49–51",
+    "url": "https://vedabase.io/en/library/transcripts/660405bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.51–55",
+    "url": "https://vedabase.io/en/library/transcripts/660406bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.55–56",
+    "url": "https://vedabase.io/en/library/transcripts/660408bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.55–58",
+    "url": "https://vedabase.io/en/library/transcripts/660413bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.58–59",
+    "url": "https://vedabase.io/en/library/transcripts/660415bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 2.59–69",
+    "url": "https://vedabase.io/en/library/transcripts/660418bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 3.8–13",
+    "url": "https://vedabase.io/en/library/transcripts/660520bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 3.13–16",
+    "url": "https://vedabase.io/en/library/transcripts/660523bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 3.16–17",
+    "url": "https://vedabase.io/en/library/transcripts/660525bg-new-york/",
+    "category": "transcripts"
+  },
+  {
+    "title": "Bhagavad-gītā 3.17–20",
+    "url": "https://vedabase.io/en/library/transcripts/660527bg-new-york/",
+    "category": "transcripts"
+  }
+]
+
+letters = [
+  {
+    "title": "Letter to: Mahatma Gandhi",
+    "url": "https://vedabase.io/en/library/letters/letter-to-mahatma-gandhi/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Raja Mohendra Pratap",
+    "url": "https://vedabase.io/en/library/letters/letter-to-raja-mohendra-pratap/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Aska Distillery",
+    "url": "https://vedabase.io/en/library/letters/letter-to-aska-distillery/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Sardar Patel",
+    "url": "https://vedabase.io/en/library/letters/letter-to-sardar-patel/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Juggannath Babu",
+    "url": "https://vedabase.io/en/library/letters/letter-to-juggannath-babu/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Pujyapada Kesava Maharaja",
+    "url": "https://vedabase.io/en/library/letters/letter-to-pujyapada-kesava-maharaja/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Gandhi Memorial Fund",
+    "url": "https://vedabase.io/en/library/letters/letter-to-gandhi-memorial-fund/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Gita Mandir Trust",
+    "url": "https://vedabase.io/en/library/letters/letter-to-gita-mandir-trust/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Father Ramakrishna",
+    "url": "https://vedabase.io/en/library/letters/letter-to-father-ramakrishna/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: R. Prakash",
+    "url": "https://vedabase.io/en/library/letters/letter-to-r-prakash/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Mr. Bailey",
+    "url": "https://vedabase.io/en/library/letters/letter-to-mr-bailey/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Mr. Bailey",
+    "url": "https://vedabase.io/en/library/letters/letter-to-mr-bailey-2/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Jawaharlal Nehru",
+    "url": "https://vedabase.io/en/library/letters/letter-to-jawaharlal-nehru/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Ramakrishna",
+    "url": "https://vedabase.io/en/library/letters/letter-to-ramakrishna/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Mr. Bailey",
+    "url": "https://vedabase.io/en/library/letters/letter-to-mr-bailey-3/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Brothers",
+    "url": "https://vedabase.io/en/library/letters/letter-to-brothers/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Registrar of Joint Stock Companies",
+    "url": "https://vedabase.io/en/library/letters/letter-to-registrar-of-joint-stock-companies/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Gosvami Maharaja",
+    "url": "https://vedabase.io/en/library/letters/letter-to-gosvami-maharaja/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Govinda Maharaja",
+    "url": "https://vedabase.io/en/library/letters/letter-to-govinda-maharaja/",
+    "category": "letters"
+  },
+  {
+    "title": "Letter to: Gosvami Maharaja",
+    "url": "https://vedabase.io/en/library/letters/letter-to-gosvami-maharaja-2/",
+    "category": "letters"
+  }
+]

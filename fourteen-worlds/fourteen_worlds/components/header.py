@@ -149,7 +149,7 @@ def tovp_header() -> rx.Component:
                     vedic_science_menu(),
                     rx.link("ARTICLES", href="/articles", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
                     rx.link("MEDIA", href="/media", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
-                    rx.link("CHAPTERS", href="/chapters", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
+                    rx.link("LIBRARY", href="/library", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
                     rx.link("PHOTOS", href="/photos", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
                     spacing="4",
                 ),
