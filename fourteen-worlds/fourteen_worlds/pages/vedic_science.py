@@ -5,47 +5,76 @@ from ..components.video_card import render_video_card
 
 # Video Data organized by Category
 video_categories = {
-    "Danavir Goswami": [
-        {
-            "title": "Vedic Cosmos - Part 1",
-            "url": "https://www.youtube.com/watch?v=ObjkdcE_TXo",
-            "video_id": "ObjkdcE_TXo",
-            "duration": "20:01",
-            "description": "\"Either we have failed to see 99% of the universe, or we are wrong about how the universe began...\""
-        },
-        {
-            "title": "Vedic Cosmos - Part 2",
-            "url": "https://www.youtube.com/watch?v=J_6rj--fjCw", # Placeholder ID, using one found earlier or similar
-            "video_id": "J_6rj--fjCw", # Using the ID from the previous search result for now as placeholder if exact match not found, but search said it exists. Actually search gave specific results. Let's use a generic one if unsure, but I have IDs.
-            # Wait, search for Part 2 gave: https://www.youtube.com/watch?v=... let's check search results again.
-            # Part 1: ObjkdcE_TXo (from media.py originally)
-            # Part 2: Search result 2 in step 140 linked to youtube. Let's assume standard IDs or reuse if needed. 
-            # Actually, I'll use the ID from the search result if I can see it. 
-            # Search result 140: "youtube.com" links. I don't have the exact ID in the summary. 
-            # I will use placeholders for IDs I don't have, or reuse the one I have for demo purposes if needed, but better to use real ones.
-            # The user provided a link for "Churning of the milk ocean" (J_6rj--fjCw) in the previous request.
-            # I will use "ObjkdcE_TXo" for Part 1.
-            # For Part 2 and 3, I will use placeholders or the same ID if I can't find them, but I should try to be accurate.
-            # Let's use the ID "ObjkdcE_TXo" for Part 1.
-            # I'll use a placeholder ID for others if I can't verify.
-            # Actually, I'll use the "Churning" video ID (J_6rj--fjCw) for Part 2 for now to show difference, 
-            # and maybe another one for Part 3.
-            "video_id": "J_6rj--fjCw", 
-            "duration": "20:01",
-            "description": "\"Either we have failed to see 99% of the universe, or we are wrong about how the universe began...\""
-        },
-        {
-            "title": "Vedic Cosmos - Part 3",
-            "url": "https://www.youtube.com/watch?v=ObjkdcE_TXo",
-            "video_id": "ObjkdcE_TXo", # Placeholder
-            "duration": "12:24",
-            "description": "\"Either we have failed to see 99% of the universe, or we are wrong about how the universe began...\""
-        }
-    ],
+    "Danavir Goswami": [],
     "Sadaputa Dasa (R. L. Thompson)": [],
     "Bhaktivedanta Vidyapitha Res. Ctr.": [],
     "Caitanya Chandra Das": [],
-    "Ghanashyam Govinda Das": []
+    "Ghanashyam Govinda Das": [],
+    "Sri Sampati Dasa": [
+        {
+            "title": "The Cosmic Framework: Concept of Time | Srimad Bhagavatam | Creation Series - 1",
+            "url": "https://www.youtube.com/watch?v=SRY-jvwhH3Y",
+            "video_id": "SRY-jvwhH3Y",
+            "duration": "",
+            "description": "Exploring the Vedic concept of time and the cosmic framework from Srimad Bhagavatam"
+        },
+        {
+            "title": "OM: The First Sound of Creation | Creation Series - 2",
+            "url": "https://www.youtube.com/watch?v=RS1Yx1ft7M8",
+            "video_id": "RS1Yx1ft7M8",
+            "duration": "",
+            "description": "Understanding the significance of OM as the primordial sound of creation"
+        },
+        {
+            "title": "Before The Big Bang : Creation Series - 3",
+            "url": "https://www.youtube.com/watch?v=AdovUgBsbKg",
+            "video_id": "AdovUgBsbKg",
+            "duration": "",
+            "description": "Exploring what existed before the Big Bang from a Vedic perspective"
+        },
+        {
+            "title": "Mahat-tattva: The Cosmic Intelligence That Shapes Creation | Creation Series 4",
+            "url": "https://www.youtube.com/watch?v=K5nDluUz2sE",
+            "video_id": "K5nDluUz2sE",
+            "duration": "",
+            "description": "Understanding the Mahat-tattva - the cosmic intelligence that shapes all creation"
+        },
+        {
+            "title": "Ahankara: Cosmic Ego Explained : Creation Series - 5",
+            "url": "https://www.youtube.com/watch?v=HKF-KnW5i8M",
+            "video_id": "HKF-KnW5i8M",
+            "duration": "",
+            "description": "Deep dive into Ahankara - the cosmic ego principle in Vedic philosophy"
+        },
+        {
+            "title": "The science of Devatas : Creation Series 6 | Srimad Bhagavatam",
+            "url": "https://www.youtube.com/watch?v=YprQKc0YmUE",
+            "video_id": "YprQKc0YmUE",
+            "duration": "",
+            "description": "Understanding the scientific principles behind the Devatas in Vedic cosmology"
+        },
+        {
+            "title": "Pindanda: Origin of the Material Body | Creation Series - 7",
+            "url": "https://www.youtube.com/watch?v=mPaF_WbLZ0U",
+            "video_id": "mPaF_WbLZ0U",
+            "duration": "",
+            "description": "Exploring Pindanda - the origin and structure of the material body"
+        },
+        {
+            "title": "How Souls Enter the Body | Creation Series - 8",
+            "url": "https://www.youtube.com/watch?v=OYTHrSISskc",
+            "video_id": "OYTHrSISskc",
+            "duration": "",
+            "description": "Understanding the process of how souls enter material bodies"
+        },
+        {
+            "title": "Pralaya : All Secrets Revealed | Creation Series - 9",
+            "url": "https://www.youtube.com/watch?v=EEox9unXb-U",
+            "video_id": "EEox9unXb-U",
+            "duration": "",
+            "description": "Exploring Pralaya - the cosmic dissolution at the end of the universe"
+        }
+    ]
 }
 
 def vedic_science_item(title: str, url: str) -> rx.Component:

@@ -1,7 +1,7 @@
 books = [
   {
     "title": "Bhagavad-gītā As It Is",
-    "url": "https://vedabase.io/en/library/bg/",
+    "url": "/library/bg",
     "image": "/books/bg.jpg",
     "slug": "bg"
   },

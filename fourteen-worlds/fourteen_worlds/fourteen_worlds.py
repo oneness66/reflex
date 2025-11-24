@@ -10,6 +10,9 @@ from .pages.sb import sb_page
 from .pages.sb_canto import sb_canto_page
 from .pages.sb_chapter import sb_chapter_page
 from .pages.sb_verse import sb_verse_page
+from .pages.bg import bg_page
+from .pages.bg_chapter import bg_chapter_page
+from .pages.bg_verse import bg_verse_page
 from .pages.photos import photos_page
 from .pages.vedic_science import vedic_science_page, vedic_topic_page
 
@@ -28,6 +31,9 @@ app.add_page(sb_page, route="/library/sb", title="Śrīmad-Bhāgavatam - Fourtee
 app.add_page(sb_canto_page, route="/library/sb/[canto]", title="Canto - Fourteen Worlds")
 app.add_page(sb_chapter_page, route="/library/sb/[canto]/[chapter]", title="Chapter - Fourteen Worlds")
 app.add_page(sb_verse_page, route="/library/sb/[canto]/[chapter]/[verse]", title="Verse - Fourteen Worlds")
+app.add_page(bg_page, route="/library/bg", title="Bhagavad-gītā As It Is - Fourteen Worlds")
+app.add_page(bg_chapter_page, route="/library/bg/[chapter]", title="BG Chapter - Fourteen Worlds")
+app.add_page(bg_verse_page, route="/library/bg/[chapter]/[verse]", title="BG Verse - Fourteen Worlds")
 app.add_page(photos_page, route="/photos", title="Photos - Fourteen Worlds")
 app.add_page(vedic_science_page, route="/vedic-science", title="Vedic Science - Fourteen Worlds")
 

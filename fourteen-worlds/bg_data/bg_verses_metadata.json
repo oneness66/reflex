@@ -1,0 +1,3800 @@
+{
+    "1": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/1/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/1/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/1/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/1/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/1/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/1/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/1/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/1/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/1/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/1/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/1/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/1/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/1/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/1/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/1/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/1/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/1/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/1/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/1/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/1/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/1/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/1/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/1/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/1/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/1/30/",
+            "slug": "30",
+            "number": "30"
+        },
+        {
+            "title": "TEXT 31:",
+            "url": "https://vedabase.io/en/library/bg/1/31/",
+            "slug": "31",
+            "number": "31"
+        },
+        {
+            "title": "TEXT 36:",
+            "url": "https://vedabase.io/en/library/bg/1/36/",
+            "slug": "36",
+            "number": "36"
+        },
+        {
+            "title": "TEXT 39:",
+            "url": "https://vedabase.io/en/library/bg/1/39/",
+            "slug": "39",
+            "number": "39"
+        },
+        {
+            "title": "TEXT 40:",
+            "url": "https://vedabase.io/en/library/bg/1/40/",
+            "slug": "40",
+            "number": "40"
+        },
+        {
+            "title": "TEXT 41:",
+            "url": "https://vedabase.io/en/library/bg/1/41/",
+            "slug": "41",
+            "number": "41"
+        },
+        {
+            "title": "TEXT 42:",
+            "url": "https://vedabase.io/en/library/bg/1/42/",
+            "slug": "42",
+            "number": "42"
+        },
+        {
+            "title": "TEXT 43:",
+            "url": "https://vedabase.io/en/library/bg/1/43/",
+            "slug": "43",
+            "number": "43"
+        },
+        {
+            "title": "TEXT 44:",
+            "url": "https://vedabase.io/en/library/bg/1/44/",
+            "slug": "44",
+            "number": "44"
+        },
+        {
+            "title": "TEXT 45:",
+            "url": "https://vedabase.io/en/library/bg/1/45/",
+            "slug": "45",
+            "number": "45"
+        },
+        {
+            "title": "TEXT 46:",
+            "url": "https://vedabase.io/en/library/bg/1/46/",
+            "slug": "46",
+            "number": "46"
+        }
+    ],
+    "2": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/2/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/2/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/2/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/2/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/2/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/2/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/2/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/2/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/2/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/2/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/2/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/2/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/2/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/2/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/2/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/2/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/2/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/2/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/2/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/2/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/2/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/2/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/2/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/2/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/2/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/2/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/2/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/2/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/2/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/2/30/",
+            "slug": "30",
+            "number": "30"
+        },
+        {
+            "title": "TEXT 31:",
+            "url": "https://vedabase.io/en/library/bg/2/31/",
+            "slug": "31",
+            "number": "31"
+        },
+        {
+            "title": "TEXT 32:",
+            "url": "https://vedabase.io/en/library/bg/2/32/",
+            "slug": "32",
+            "number": "32"
+        },
+        {
+            "title": "TEXT 33:",
+            "url": "https://vedabase.io/en/library/bg/2/33/",
+            "slug": "33",
+            "number": "33"
+        },
+        {
+            "title": "TEXT 34:",
+            "url": "https://vedabase.io/en/library/bg/2/34/",
+            "slug": "34",
+            "number": "34"
+        },
+        {
+            "title": "TEXT 35:",
+            "url": "https://vedabase.io/en/library/bg/2/35/",
+            "slug": "35",
+            "number": "35"
+        },
+        {
+            "title": "TEXT 36:",
+            "url": "https://vedabase.io/en/library/bg/2/36/",
+            "slug": "36",
+            "number": "36"
+        },
+        {
+            "title": "TEXT 37:",
+            "url": "https://vedabase.io/en/library/bg/2/37/",
+            "slug": "37",
+            "number": "37"
+        },
+        {
+            "title": "TEXT 38:",
+            "url": "https://vedabase.io/en/library/bg/2/38/",
+            "slug": "38",
+            "number": "38"
+        },
+        {
+            "title": "TEXT 39:",
+            "url": "https://vedabase.io/en/library/bg/2/39/",
+            "slug": "39",
+            "number": "39"
+        },
+        {
+            "title": "TEXT 40:",
+            "url": "https://vedabase.io/en/library/bg/2/40/",
+            "slug": "40",
+            "number": "40"
+        },
+        {
+            "title": "TEXT 41:",
+            "url": "https://vedabase.io/en/library/bg/2/41/",
+            "slug": "41",
+            "number": "41"
+        },
+        {
+            "title": "TEXT 44:",
+            "url": "https://vedabase.io/en/library/bg/2/44/",
+            "slug": "44",
+            "number": "44"
+        },
+        {
+            "title": "TEXT 45:",
+            "url": "https://vedabase.io/en/library/bg/2/45/",
+            "slug": "45",
+            "number": "45"
+        },
+        {
+            "title": "TEXT 46:",
+            "url": "https://vedabase.io/en/library/bg/2/46/",
+            "slug": "46",
+            "number": "46"
+        },
+        {
+            "title": "TEXT 47:",
+            "url": "https://vedabase.io/en/library/bg/2/47/",
+            "slug": "47",
+            "number": "47"
+        },
+        {
+            "title": "TEXT 48:",
+            "url": "https://vedabase.io/en/library/bg/2/48/",
+            "slug": "48",
+            "number": "48"
+        },
+        {
+            "title": "TEXT 49:",
+            "url": "https://vedabase.io/en/library/bg/2/49/",
+            "slug": "49",
+            "number": "49"
+        },
+        {
+            "title": "TEXT 50:",
+            "url": "https://vedabase.io/en/library/bg/2/50/",
+            "slug": "50",
+            "number": "50"
+        },
+        {
+            "title": "TEXT 51:",
+            "url": "https://vedabase.io/en/library/bg/2/51/",
+            "slug": "51",
+            "number": "51"
+        },
+        {
+            "title": "TEXT 52:",
+            "url": "https://vedabase.io/en/library/bg/2/52/",
+            "slug": "52",
+            "number": "52"
+        },
+        {
+            "title": "TEXT 53:",
+            "url": "https://vedabase.io/en/library/bg/2/53/",
+            "slug": "53",
+            "number": "53"
+        },
+        {
+            "title": "TEXT 54:",
+            "url": "https://vedabase.io/en/library/bg/2/54/",
+            "slug": "54",
+            "number": "54"
+        },
+        {
+            "title": "TEXT 55:",
+            "url": "https://vedabase.io/en/library/bg/2/55/",
+            "slug": "55",
+            "number": "55"
+        },
+        {
+            "title": "TEXT 56:",
+            "url": "https://vedabase.io/en/library/bg/2/56/",
+            "slug": "56",
+            "number": "56"
+        },
+        {
+            "title": "TEXT 57:",
+            "url": "https://vedabase.io/en/library/bg/2/57/",
+            "slug": "57",
+            "number": "57"
+        },
+        {
+            "title": "TEXT 58:",
+            "url": "https://vedabase.io/en/library/bg/2/58/",
+            "slug": "58",
+            "number": "58"
+        },
+        {
+            "title": "TEXT 59:",
+            "url": "https://vedabase.io/en/library/bg/2/59/",
+            "slug": "59",
+            "number": "59"
+        },
+        {
+            "title": "TEXT 60:",
+            "url": "https://vedabase.io/en/library/bg/2/60/",
+            "slug": "60",
+            "number": "60"
+        },
+        {
+            "title": "TEXT 61:",
+            "url": "https://vedabase.io/en/library/bg/2/61/",
+            "slug": "61",
+            "number": "61"
+        },
+        {
+            "title": "TEXT 62:",
+            "url": "https://vedabase.io/en/library/bg/2/62/",
+            "slug": "62",
+            "number": "62"
+        },
+        {
+            "title": "TEXT 63:",
+            "url": "https://vedabase.io/en/library/bg/2/63/",
+            "slug": "63",
+            "number": "63"
+        },
+        {
+            "title": "TEXT 64:",
+            "url": "https://vedabase.io/en/library/bg/2/64/",
+            "slug": "64",
+            "number": "64"
+        },
+        {
+            "title": "TEXT 65:",
+            "url": "https://vedabase.io/en/library/bg/2/65/",
+            "slug": "65",
+            "number": "65"
+        },
+        {
+            "title": "TEXT 66:",
+            "url": "https://vedabase.io/en/library/bg/2/66/",
+            "slug": "66",
+            "number": "66"
+        },
+        {
+            "title": "TEXT 67:",
+            "url": "https://vedabase.io/en/library/bg/2/67/",
+            "slug": "67",
+            "number": "67"
+        },
+        {
+            "title": "TEXT 68:",
+            "url": "https://vedabase.io/en/library/bg/2/68/",
+            "slug": "68",
+            "number": "68"
+        },
+        {
+            "title": "TEXT 69:",
+            "url": "https://vedabase.io/en/library/bg/2/69/",
+            "slug": "69",
+            "number": "69"
+        },
+        {
+            "title": "TEXT 70:",
+            "url": "https://vedabase.io/en/library/bg/2/70/",
+            "slug": "70",
+            "number": "70"
+        },
+        {
+            "title": "TEXT 71:",
+            "url": "https://vedabase.io/en/library/bg/2/71/",
+            "slug": "71",
+            "number": "71"
+        },
+        {
+            "title": "TEXT 72:",
+            "url": "https://vedabase.io/en/library/bg/2/72/",
+            "slug": "72",
+            "number": "72"
+        }
+    ],
+    "3": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/3/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/3/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/3/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/3/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/3/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/3/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/3/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/3/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/3/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/3/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/3/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/3/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/3/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/3/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/3/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/3/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/3/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/3/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/3/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/3/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/3/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/3/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/3/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/3/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/3/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/3/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/3/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/3/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/3/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/3/30/",
+            "slug": "30",
+            "number": "30"
+        },
+        {
+            "title": "TEXT 31:",
+            "url": "https://vedabase.io/en/library/bg/3/31/",
+            "slug": "31",
+            "number": "31"
+        },
+        {
+            "title": "TEXT 32:",
+            "url": "https://vedabase.io/en/library/bg/3/32/",
+            "slug": "32",
+            "number": "32"
+        },
+        {
+            "title": "TEXT 33:",
+            "url": "https://vedabase.io/en/library/bg/3/33/",
+            "slug": "33",
+            "number": "33"
+        },
+        {
+            "title": "TEXT 34:",
+            "url": "https://vedabase.io/en/library/bg/3/34/",
+            "slug": "34",
+            "number": "34"
+        },
+        {
+            "title": "TEXT 35:",
+            "url": "https://vedabase.io/en/library/bg/3/35/",
+            "slug": "35",
+            "number": "35"
+        },
+        {
+            "title": "TEXT 36:",
+            "url": "https://vedabase.io/en/library/bg/3/36/",
+            "slug": "36",
+            "number": "36"
+        },
+        {
+            "title": "TEXT 37:",
+            "url": "https://vedabase.io/en/library/bg/3/37/",
+            "slug": "37",
+            "number": "37"
+        },
+        {
+            "title": "TEXT 38:",
+            "url": "https://vedabase.io/en/library/bg/3/38/",
+            "slug": "38",
+            "number": "38"
+        },
+        {
+            "title": "TEXT 39:",
+            "url": "https://vedabase.io/en/library/bg/3/39/",
+            "slug": "39",
+            "number": "39"
+        },
+        {
+            "title": "TEXT 40:",
+            "url": "https://vedabase.io/en/library/bg/3/40/",
+            "slug": "40",
+            "number": "40"
+        },
+        {
+            "title": "TEXT 41:",
+            "url": "https://vedabase.io/en/library/bg/3/41/",
+            "slug": "41",
+            "number": "41"
+        },
+        {
+            "title": "TEXT 42:",
+            "url": "https://vedabase.io/en/library/bg/3/42/",
+            "slug": "42",
+            "number": "42"
+        },
+        {
+            "title": "TEXT 43:",
+            "url": "https://vedabase.io/en/library/bg/3/43/",
+            "slug": "43",
+            "number": "43"
+        }
+    ],
+    "4": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/4/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/4/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/4/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/4/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/4/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/4/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/4/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/4/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/4/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/4/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/4/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/4/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/4/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/4/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/4/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/4/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/4/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/4/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/4/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/4/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/4/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/4/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/4/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/4/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/4/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/4/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/4/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/4/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/4/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/4/30/",
+            "slug": "30",
+            "number": "30"
+        },
+        {
+            "title": "TEXT 31:",
+            "url": "https://vedabase.io/en/library/bg/4/31/",
+            "slug": "31",
+            "number": "31"
+        },
+        {
+            "title": "TEXT 32:",
+            "url": "https://vedabase.io/en/library/bg/4/32/",
+            "slug": "32",
+            "number": "32"
+        },
+        {
+            "title": "TEXT 33:",
+            "url": "https://vedabase.io/en/library/bg/4/33/",
+            "slug": "33",
+            "number": "33"
+        },
+        {
+            "title": "TEXT 34:",
+            "url": "https://vedabase.io/en/library/bg/4/34/",
+            "slug": "34",
+            "number": "34"
+        },
+        {
+            "title": "TEXT 35:",
+            "url": "https://vedabase.io/en/library/bg/4/35/",
+            "slug": "35",
+            "number": "35"
+        },
+        {
+            "title": "TEXT 36:",
+            "url": "https://vedabase.io/en/library/bg/4/36/",
+            "slug": "36",
+            "number": "36"
+        },
+        {
+            "title": "TEXT 37:",
+            "url": "https://vedabase.io/en/library/bg/4/37/",
+            "slug": "37",
+            "number": "37"
+        },
+        {
+            "title": "TEXT 38:",
+            "url": "https://vedabase.io/en/library/bg/4/38/",
+            "slug": "38",
+            "number": "38"
+        },
+        {
+            "title": "TEXT 39:",
+            "url": "https://vedabase.io/en/library/bg/4/39/",
+            "slug": "39",
+            "number": "39"
+        },
+        {
+            "title": "TEXT 40:",
+            "url": "https://vedabase.io/en/library/bg/4/40/",
+            "slug": "40",
+            "number": "40"
+        },
+        {
+            "title": "TEXT 41:",
+            "url": "https://vedabase.io/en/library/bg/4/41/",
+            "slug": "41",
+            "number": "41"
+        },
+        {
+            "title": "TEXT 42:",
+            "url": "https://vedabase.io/en/library/bg/4/42/",
+            "slug": "42",
+            "number": "42"
+        }
+    ],
+    "5": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/5/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/5/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/5/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/5/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/5/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/5/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/5/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/5/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/5/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/5/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/5/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/5/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/5/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/5/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/5/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/5/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/5/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/5/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/5/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/5/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/5/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/5/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/5/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/5/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/5/29/",
+            "slug": "29",
+            "number": "29"
+        }
+    ],
+    "6": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/6/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/6/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/6/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/6/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/6/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/6/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/6/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/6/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/6/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/6/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/6/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/6/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/6/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/6/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/6/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/6/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/6/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/6/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/6/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/6/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/6/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/6/30/",
+            "slug": "30",
+            "number": "30"
+        },
+        {
+            "title": "TEXT 31:",
+            "url": "https://vedabase.io/en/library/bg/6/31/",
+            "slug": "31",
+            "number": "31"
+        },
+        {
+            "title": "TEXT 32:",
+            "url": "https://vedabase.io/en/library/bg/6/32/",
+            "slug": "32",
+            "number": "32"
+        },
+        {
+            "title": "TEXT 33:",
+            "url": "https://vedabase.io/en/library/bg/6/33/",
+            "slug": "33",
+            "number": "33"
+        },
+        {
+            "title": "TEXT 34:",
+            "url": "https://vedabase.io/en/library/bg/6/34/",
+            "slug": "34",
+            "number": "34"
+        },
+        {
+            "title": "TEXT 35:",
+            "url": "https://vedabase.io/en/library/bg/6/35/",
+            "slug": "35",
+            "number": "35"
+        },
+        {
+            "title": "TEXT 36:",
+            "url": "https://vedabase.io/en/library/bg/6/36/",
+            "slug": "36",
+            "number": "36"
+        },
+        {
+            "title": "TEXT 37:",
+            "url": "https://vedabase.io/en/library/bg/6/37/",
+            "slug": "37",
+            "number": "37"
+        },
+        {
+            "title": "TEXT 38:",
+            "url": "https://vedabase.io/en/library/bg/6/38/",
+            "slug": "38",
+            "number": "38"
+        },
+        {
+            "title": "TEXT 39:",
+            "url": "https://vedabase.io/en/library/bg/6/39/",
+            "slug": "39",
+            "number": "39"
+        },
+        {
+            "title": "TEXT 40:",
+            "url": "https://vedabase.io/en/library/bg/6/40/",
+            "slug": "40",
+            "number": "40"
+        },
+        {
+            "title": "TEXT 41:",
+            "url": "https://vedabase.io/en/library/bg/6/41/",
+            "slug": "41",
+            "number": "41"
+        },
+        {
+            "title": "TEXT 42:",
+            "url": "https://vedabase.io/en/library/bg/6/42/",
+            "slug": "42",
+            "number": "42"
+        },
+        {
+            "title": "TEXT 43:",
+            "url": "https://vedabase.io/en/library/bg/6/43/",
+            "slug": "43",
+            "number": "43"
+        },
+        {
+            "title": "TEXT 44:",
+            "url": "https://vedabase.io/en/library/bg/6/44/",
+            "slug": "44",
+            "number": "44"
+        },
+        {
+            "title": "TEXT 45:",
+            "url": "https://vedabase.io/en/library/bg/6/45/",
+            "slug": "45",
+            "number": "45"
+        },
+        {
+            "title": "TEXT 46:",
+            "url": "https://vedabase.io/en/library/bg/6/46/",
+            "slug": "46",
+            "number": "46"
+        },
+        {
+            "title": "TEXT 47:",
+            "url": "https://vedabase.io/en/library/bg/6/47/",
+            "slug": "47",
+            "number": "47"
+        }
+    ],
+    "7": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/7/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/7/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/7/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/7/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/7/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/7/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/7/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/7/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/7/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/7/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/7/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/7/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/7/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/7/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/7/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/7/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/7/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/7/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/7/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/7/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/7/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/7/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/7/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/7/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/7/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/7/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/7/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/7/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/7/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/7/30/",
+            "slug": "30",
+            "number": "30"
+        }
+    ],
+    "8": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/8/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/8/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/8/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/8/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/8/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/8/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/8/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/8/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/8/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/8/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/8/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/8/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/8/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/8/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/8/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/8/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/8/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/8/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/8/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/8/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/8/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/8/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/8/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/8/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/8/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/8/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/8/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/8/28/",
+            "slug": "28",
+            "number": "28"
+        }
+    ],
+    "9": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/9/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/9/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/9/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/9/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/9/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/9/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/9/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/9/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/9/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/9/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/9/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/9/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/9/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/9/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/9/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/9/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/9/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/9/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/9/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/9/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/9/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/9/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/9/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/9/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/9/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/9/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/9/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/9/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/9/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/9/30/",
+            "slug": "30",
+            "number": "30"
+        },
+        {
+            "title": "TEXT 31:",
+            "url": "https://vedabase.io/en/library/bg/9/31/",
+            "slug": "31",
+            "number": "31"
+        },
+        {
+            "title": "TEXT 32:",
+            "url": "https://vedabase.io/en/library/bg/9/32/",
+            "slug": "32",
+            "number": "32"
+        },
+        {
+            "title": "TEXT 33:",
+            "url": "https://vedabase.io/en/library/bg/9/33/",
+            "slug": "33",
+            "number": "33"
+        },
+        {
+            "title": "TEXT 34:",
+            "url": "https://vedabase.io/en/library/bg/9/34/",
+            "slug": "34",
+            "number": "34"
+        }
+    ],
+    "10": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/10/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/10/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/10/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/10/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/10/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/10/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/10/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/10/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/10/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/10/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/10/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/10/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/10/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/10/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/10/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/10/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/10/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/10/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/10/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/10/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/10/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/10/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/10/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/10/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/10/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/10/30/",
+            "slug": "30",
+            "number": "30"
+        },
+        {
+            "title": "TEXT 31:",
+            "url": "https://vedabase.io/en/library/bg/10/31/",
+            "slug": "31",
+            "number": "31"
+        },
+        {
+            "title": "TEXT 32:",
+            "url": "https://vedabase.io/en/library/bg/10/32/",
+            "slug": "32",
+            "number": "32"
+        },
+        {
+            "title": "TEXT 33:",
+            "url": "https://vedabase.io/en/library/bg/10/33/",
+            "slug": "33",
+            "number": "33"
+        },
+        {
+            "title": "TEXT 34:",
+            "url": "https://vedabase.io/en/library/bg/10/34/",
+            "slug": "34",
+            "number": "34"
+        },
+        {
+            "title": "TEXT 35:",
+            "url": "https://vedabase.io/en/library/bg/10/35/",
+            "slug": "35",
+            "number": "35"
+        },
+        {
+            "title": "TEXT 36:",
+            "url": "https://vedabase.io/en/library/bg/10/36/",
+            "slug": "36",
+            "number": "36"
+        },
+        {
+            "title": "TEXT 37:",
+            "url": "https://vedabase.io/en/library/bg/10/37/",
+            "slug": "37",
+            "number": "37"
+        },
+        {
+            "title": "TEXT 38:",
+            "url": "https://vedabase.io/en/library/bg/10/38/",
+            "slug": "38",
+            "number": "38"
+        },
+        {
+            "title": "TEXT 39:",
+            "url": "https://vedabase.io/en/library/bg/10/39/",
+            "slug": "39",
+            "number": "39"
+        },
+        {
+            "title": "TEXT 40:",
+            "url": "https://vedabase.io/en/library/bg/10/40/",
+            "slug": "40",
+            "number": "40"
+        },
+        {
+            "title": "TEXT 41:",
+            "url": "https://vedabase.io/en/library/bg/10/41/",
+            "slug": "41",
+            "number": "41"
+        },
+        {
+            "title": "TEXT 42:",
+            "url": "https://vedabase.io/en/library/bg/10/42/",
+            "slug": "42",
+            "number": "42"
+        }
+    ],
+    "11": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/11/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/11/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/11/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/11/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/11/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/11/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/11/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/11/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/11/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/11/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/11/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/11/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/11/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/11/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/11/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/11/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/11/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/11/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/11/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/11/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/11/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/11/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/11/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/11/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/11/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/11/30/",
+            "slug": "30",
+            "number": "30"
+        },
+        {
+            "title": "TEXT 31:",
+            "url": "https://vedabase.io/en/library/bg/11/31/",
+            "slug": "31",
+            "number": "31"
+        },
+        {
+            "title": "TEXT 32:",
+            "url": "https://vedabase.io/en/library/bg/11/32/",
+            "slug": "32",
+            "number": "32"
+        },
+        {
+            "title": "TEXT 33:",
+            "url": "https://vedabase.io/en/library/bg/11/33/",
+            "slug": "33",
+            "number": "33"
+        },
+        {
+            "title": "TEXT 34:",
+            "url": "https://vedabase.io/en/library/bg/11/34/",
+            "slug": "34",
+            "number": "34"
+        },
+        {
+            "title": "TEXT 35:",
+            "url": "https://vedabase.io/en/library/bg/11/35/",
+            "slug": "35",
+            "number": "35"
+        },
+        {
+            "title": "TEXT 36:",
+            "url": "https://vedabase.io/en/library/bg/11/36/",
+            "slug": "36",
+            "number": "36"
+        },
+        {
+            "title": "TEXT 37:",
+            "url": "https://vedabase.io/en/library/bg/11/37/",
+            "slug": "37",
+            "number": "37"
+        },
+        {
+            "title": "TEXT 38:",
+            "url": "https://vedabase.io/en/library/bg/11/38/",
+            "slug": "38",
+            "number": "38"
+        },
+        {
+            "title": "TEXT 39:",
+            "url": "https://vedabase.io/en/library/bg/11/39/",
+            "slug": "39",
+            "number": "39"
+        },
+        {
+            "title": "TEXT 40:",
+            "url": "https://vedabase.io/en/library/bg/11/40/",
+            "slug": "40",
+            "number": "40"
+        },
+        {
+            "title": "TEXT 43:",
+            "url": "https://vedabase.io/en/library/bg/11/43/",
+            "slug": "43",
+            "number": "43"
+        },
+        {
+            "title": "TEXT 44:",
+            "url": "https://vedabase.io/en/library/bg/11/44/",
+            "slug": "44",
+            "number": "44"
+        },
+        {
+            "title": "TEXT 45:",
+            "url": "https://vedabase.io/en/library/bg/11/45/",
+            "slug": "45",
+            "number": "45"
+        },
+        {
+            "title": "TEXT 46:",
+            "url": "https://vedabase.io/en/library/bg/11/46/",
+            "slug": "46",
+            "number": "46"
+        },
+        {
+            "title": "TEXT 47:",
+            "url": "https://vedabase.io/en/library/bg/11/47/",
+            "slug": "47",
+            "number": "47"
+        },
+        {
+            "title": "TEXT 48:",
+            "url": "https://vedabase.io/en/library/bg/11/48/",
+            "slug": "48",
+            "number": "48"
+        },
+        {
+            "title": "TEXT 49:",
+            "url": "https://vedabase.io/en/library/bg/11/49/",
+            "slug": "49",
+            "number": "49"
+        },
+        {
+            "title": "TEXT 50:",
+            "url": "https://vedabase.io/en/library/bg/11/50/",
+            "slug": "50",
+            "number": "50"
+        },
+        {
+            "title": "TEXT 51:",
+            "url": "https://vedabase.io/en/library/bg/11/51/",
+            "slug": "51",
+            "number": "51"
+        },
+        {
+            "title": "TEXT 52:",
+            "url": "https://vedabase.io/en/library/bg/11/52/",
+            "slug": "52",
+            "number": "52"
+        },
+        {
+            "title": "TEXT 53:",
+            "url": "https://vedabase.io/en/library/bg/11/53/",
+            "slug": "53",
+            "number": "53"
+        },
+        {
+            "title": "TEXT 54:",
+            "url": "https://vedabase.io/en/library/bg/11/54/",
+            "slug": "54",
+            "number": "54"
+        },
+        {
+            "title": "TEXT 55:",
+            "url": "https://vedabase.io/en/library/bg/11/55/",
+            "slug": "55",
+            "number": "55"
+        }
+    ],
+    "12": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/12/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/12/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/12/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/12/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/12/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/12/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/12/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/12/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/12/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/12/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/12/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/12/20/",
+            "slug": "20",
+            "number": "20"
+        }
+    ],
+    "13": [
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/13/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/13/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/13/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/13/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/13/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/13/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/13/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/13/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/13/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/13/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/13/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/13/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/13/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/13/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/13/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/13/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/13/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/13/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/13/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/13/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/13/30/",
+            "slug": "30",
+            "number": "30"
+        },
+        {
+            "title": "TEXT 31:",
+            "url": "https://vedabase.io/en/library/bg/13/31/",
+            "slug": "31",
+            "number": "31"
+        },
+        {
+            "title": "TEXT 32:",
+            "url": "https://vedabase.io/en/library/bg/13/32/",
+            "slug": "32",
+            "number": "32"
+        },
+        {
+            "title": "TEXT 33:",
+            "url": "https://vedabase.io/en/library/bg/13/33/",
+            "slug": "33",
+            "number": "33"
+        },
+        {
+            "title": "TEXT 34:",
+            "url": "https://vedabase.io/en/library/bg/13/34/",
+            "slug": "34",
+            "number": "34"
+        },
+        {
+            "title": "TEXT 35:",
+            "url": "https://vedabase.io/en/library/bg/13/35/",
+            "slug": "35",
+            "number": "35"
+        }
+    ],
+    "14": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/14/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/14/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/14/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/14/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/14/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/14/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/14/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/14/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/14/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/14/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/14/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/14/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/14/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/14/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/14/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/14/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/14/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/14/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/14/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/14/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/14/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/14/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/14/27/",
+            "slug": "27",
+            "number": "27"
+        }
+    ],
+    "15": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/15/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/15/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/15/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/15/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/15/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/15/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/15/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/15/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/15/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/15/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/15/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/15/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/15/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/15/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/15/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/15/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/15/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/15/20/",
+            "slug": "20",
+            "number": "20"
+        }
+    ],
+    "16": [
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/16/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/16/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/16/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/16/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/16/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/16/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/16/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/16/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/16/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/16/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/16/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/16/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/16/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/16/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/16/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/16/24/",
+            "slug": "24",
+            "number": "24"
+        }
+    ],
+    "17": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/17/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/17/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/17/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/17/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/17/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/17/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/17/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/17/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/17/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/17/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/17/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/17/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/17/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/17/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/17/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/17/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/17/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/17/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/17/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/17/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/17/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/17/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/17/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/17/28/",
+            "slug": "28",
+            "number": "28"
+        }
+    ],
+    "18": [
+        {
+            "title": "TEXT 1:",
+            "url": "https://vedabase.io/en/library/bg/18/1/",
+            "slug": "1",
+            "number": "1"
+        },
+        {
+            "title": "TEXT 2:",
+            "url": "https://vedabase.io/en/library/bg/18/2/",
+            "slug": "2",
+            "number": "2"
+        },
+        {
+            "title": "TEXT 3:",
+            "url": "https://vedabase.io/en/library/bg/18/3/",
+            "slug": "3",
+            "number": "3"
+        },
+        {
+            "title": "TEXT 4:",
+            "url": "https://vedabase.io/en/library/bg/18/4/",
+            "slug": "4",
+            "number": "4"
+        },
+        {
+            "title": "TEXT 5:",
+            "url": "https://vedabase.io/en/library/bg/18/5/",
+            "slug": "5",
+            "number": "5"
+        },
+        {
+            "title": "TEXT 6:",
+            "url": "https://vedabase.io/en/library/bg/18/6/",
+            "slug": "6",
+            "number": "6"
+        },
+        {
+            "title": "TEXT 7:",
+            "url": "https://vedabase.io/en/library/bg/18/7/",
+            "slug": "7",
+            "number": "7"
+        },
+        {
+            "title": "TEXT 8:",
+            "url": "https://vedabase.io/en/library/bg/18/8/",
+            "slug": "8",
+            "number": "8"
+        },
+        {
+            "title": "TEXT 9:",
+            "url": "https://vedabase.io/en/library/bg/18/9/",
+            "slug": "9",
+            "number": "9"
+        },
+        {
+            "title": "TEXT 10:",
+            "url": "https://vedabase.io/en/library/bg/18/10/",
+            "slug": "10",
+            "number": "10"
+        },
+        {
+            "title": "TEXT 11:",
+            "url": "https://vedabase.io/en/library/bg/18/11/",
+            "slug": "11",
+            "number": "11"
+        },
+        {
+            "title": "TEXT 12:",
+            "url": "https://vedabase.io/en/library/bg/18/12/",
+            "slug": "12",
+            "number": "12"
+        },
+        {
+            "title": "TEXT 13:",
+            "url": "https://vedabase.io/en/library/bg/18/13/",
+            "slug": "13",
+            "number": "13"
+        },
+        {
+            "title": "TEXT 14:",
+            "url": "https://vedabase.io/en/library/bg/18/14/",
+            "slug": "14",
+            "number": "14"
+        },
+        {
+            "title": "TEXT 15:",
+            "url": "https://vedabase.io/en/library/bg/18/15/",
+            "slug": "15",
+            "number": "15"
+        },
+        {
+            "title": "TEXT 16:",
+            "url": "https://vedabase.io/en/library/bg/18/16/",
+            "slug": "16",
+            "number": "16"
+        },
+        {
+            "title": "TEXT 17:",
+            "url": "https://vedabase.io/en/library/bg/18/17/",
+            "slug": "17",
+            "number": "17"
+        },
+        {
+            "title": "TEXT 18:",
+            "url": "https://vedabase.io/en/library/bg/18/18/",
+            "slug": "18",
+            "number": "18"
+        },
+        {
+            "title": "TEXT 19:",
+            "url": "https://vedabase.io/en/library/bg/18/19/",
+            "slug": "19",
+            "number": "19"
+        },
+        {
+            "title": "TEXT 20:",
+            "url": "https://vedabase.io/en/library/bg/18/20/",
+            "slug": "20",
+            "number": "20"
+        },
+        {
+            "title": "TEXT 21:",
+            "url": "https://vedabase.io/en/library/bg/18/21/",
+            "slug": "21",
+            "number": "21"
+        },
+        {
+            "title": "TEXT 22:",
+            "url": "https://vedabase.io/en/library/bg/18/22/",
+            "slug": "22",
+            "number": "22"
+        },
+        {
+            "title": "TEXT 23:",
+            "url": "https://vedabase.io/en/library/bg/18/23/",
+            "slug": "23",
+            "number": "23"
+        },
+        {
+            "title": "TEXT 24:",
+            "url": "https://vedabase.io/en/library/bg/18/24/",
+            "slug": "24",
+            "number": "24"
+        },
+        {
+            "title": "TEXT 25:",
+            "url": "https://vedabase.io/en/library/bg/18/25/",
+            "slug": "25",
+            "number": "25"
+        },
+        {
+            "title": "TEXT 26:",
+            "url": "https://vedabase.io/en/library/bg/18/26/",
+            "slug": "26",
+            "number": "26"
+        },
+        {
+            "title": "TEXT 27:",
+            "url": "https://vedabase.io/en/library/bg/18/27/",
+            "slug": "27",
+            "number": "27"
+        },
+        {
+            "title": "TEXT 28:",
+            "url": "https://vedabase.io/en/library/bg/18/28/",
+            "slug": "28",
+            "number": "28"
+        },
+        {
+            "title": "TEXT 29:",
+            "url": "https://vedabase.io/en/library/bg/18/29/",
+            "slug": "29",
+            "number": "29"
+        },
+        {
+            "title": "TEXT 30:",
+            "url": "https://vedabase.io/en/library/bg/18/30/",
+            "slug": "30",
+            "number": "30"
+        },
+        {
+            "title": "TEXT 31:",
+            "url": "https://vedabase.io/en/library/bg/18/31/",
+            "slug": "31",
+            "number": "31"
+        },
+        {
+            "title": "TEXT 32:",
+            "url": "https://vedabase.io/en/library/bg/18/32/",
+            "slug": "32",
+            "number": "32"
+        },
+        {
+            "title": "TEXT 33:",
+            "url": "https://vedabase.io/en/library/bg/18/33/",
+            "slug": "33",
+            "number": "33"
+        },
+        {
+            "title": "TEXT 34:",
+            "url": "https://vedabase.io/en/library/bg/18/34/",
+            "slug": "34",
+            "number": "34"
+        },
+        {
+            "title": "TEXT 35:",
+            "url": "https://vedabase.io/en/library/bg/18/35/",
+            "slug": "35",
+            "number": "35"
+        },
+        {
+            "title": "TEXT 36:",
+            "url": "https://vedabase.io/en/library/bg/18/36/",
+            "slug": "36",
+            "number": "36"
+        },
+        {
+            "title": "TEXT 37:",
+            "url": "https://vedabase.io/en/library/bg/18/37/",
+            "slug": "37",
+            "number": "37"
+        },
+        {
+            "title": "TEXT 38:",
+            "url": "https://vedabase.io/en/library/bg/18/38/",
+            "slug": "38",
+            "number": "38"
+        },
+        {
+            "title": "TEXT 39:",
+            "url": "https://vedabase.io/en/library/bg/18/39/",
+            "slug": "39",
+            "number": "39"
+        },
+        {
+            "title": "TEXT 40:",
+            "url": "https://vedabase.io/en/library/bg/18/40/",
+            "slug": "40",
+            "number": "40"
+        },
+        {
+            "title": "TEXT 41:",
+            "url": "https://vedabase.io/en/library/bg/18/41/",
+            "slug": "41",
+            "number": "41"
+        },
+        {
+            "title": "TEXT 42:",
+            "url": "https://vedabase.io/en/library/bg/18/42/",
+            "slug": "42",
+            "number": "42"
+        },
+        {
+            "title": "TEXT 43:",
+            "url": "https://vedabase.io/en/library/bg/18/43/",
+            "slug": "43",
+            "number": "43"
+        },
+        {
+            "title": "TEXT 44:",
+            "url": "https://vedabase.io/en/library/bg/18/44/",
+            "slug": "44",
+            "number": "44"
+        },
+        {
+            "title": "TEXT 45:",
+            "url": "https://vedabase.io/en/library/bg/18/45/",
+            "slug": "45",
+            "number": "45"
+        },
+        {
+            "title": "TEXT 46:",
+            "url": "https://vedabase.io/en/library/bg/18/46/",
+            "slug": "46",
+            "number": "46"
+        },
+        {
+            "title": "TEXT 47:",
+            "url": "https://vedabase.io/en/library/bg/18/47/",
+            "slug": "47",
+            "number": "47"
+        },
+        {
+            "title": "TEXT 48:",
+            "url": "https://vedabase.io/en/library/bg/18/48/",
+            "slug": "48",
+            "number": "48"
+        },
+        {
+            "title": "TEXT 49:",
+            "url": "https://vedabase.io/en/library/bg/18/49/",
+            "slug": "49",
+            "number": "49"
+        },
+        {
+            "title": "TEXT 50:",
+            "url": "https://vedabase.io/en/library/bg/18/50/",
+            "slug": "50",
+            "number": "50"
+        },
+        {
+            "title": "TEXT 54:",
+            "url": "https://vedabase.io/en/library/bg/18/54/",
+            "slug": "54",
+            "number": "54"
+        },
+        {
+            "title": "TEXT 55:",
+            "url": "https://vedabase.io/en/library/bg/18/55/",
+            "slug": "55",
+            "number": "55"
+        },
+        {
+            "title": "TEXT 56:",
+            "url": "https://vedabase.io/en/library/bg/18/56/",
+            "slug": "56",
+            "number": "56"
+        },
+        {
+            "title": "TEXT 57:",
+            "url": "https://vedabase.io/en/library/bg/18/57/",
+            "slug": "57",
+            "number": "57"
+        },
+        {
+            "title": "TEXT 58:",
+            "url": "https://vedabase.io/en/library/bg/18/58/",
+            "slug": "58",
+            "number": "58"
+        },
+        {
+            "title": "TEXT 59:",
+            "url": "https://vedabase.io/en/library/bg/18/59/",
+            "slug": "59",
+            "number": "59"
+        },
+        {
+            "title": "TEXT 60:",
+            "url": "https://vedabase.io/en/library/bg/18/60/",
+            "slug": "60",
+            "number": "60"
+        },
+        {
+            "title": "TEXT 61:",
+            "url": "https://vedabase.io/en/library/bg/18/61/",
+            "slug": "61",
+            "number": "61"
+        },
+        {
+            "title": "TEXT 62:",
+            "url": "https://vedabase.io/en/library/bg/18/62/",
+            "slug": "62",
+            "number": "62"
+        },
+        {
+            "title": "TEXT 63:",
+            "url": "https://vedabase.io/en/library/bg/18/63/",
+            "slug": "63",
+            "number": "63"
+        },
+        {
+            "title": "TEXT 64:",
+            "url": "https://vedabase.io/en/library/bg/18/64/",
+            "slug": "64",
+            "number": "64"
+        },
+        {
+            "title": "TEXT 65:",
+            "url": "https://vedabase.io/en/library/bg/18/65/",
+            "slug": "65",
+            "number": "65"
+        },
+        {
+            "title": "TEXT 66:",
+            "url": "https://vedabase.io/en/library/bg/18/66/",
+            "slug": "66",
+            "number": "66"
+        },
+        {
+            "title": "TEXT 67:",
+            "url": "https://vedabase.io/en/library/bg/18/67/",
+            "slug": "67",
+            "number": "67"
+        },
+        {
+            "title": "TEXT 68:",
+            "url": "https://vedabase.io/en/library/bg/18/68/",
+            "slug": "68",
+            "number": "68"
+        },
+        {
+            "title": "TEXT 69:",
+            "url": "https://vedabase.io/en/library/bg/18/69/",
+            "slug": "69",
+            "number": "69"
+        },
+        {
+            "title": "TEXT 70:",
+            "url": "https://vedabase.io/en/library/bg/18/70/",
+            "slug": "70",
+            "number": "70"
+        },
+        {
+            "title": "TEXT 71:",
+            "url": "https://vedabase.io/en/library/bg/18/71/",
+            "slug": "71",
+            "number": "71"
+        },
+        {
+            "title": "TEXT 72:",
+            "url": "https://vedabase.io/en/library/bg/18/72/",
+            "slug": "72",
+            "number": "72"
+        },
+        {
+            "title": "TEXT 73:",
+            "url": "https://vedabase.io/en/library/bg/18/73/",
+            "slug": "73",
+            "number": "73"
+        },
+        {
+            "title": "TEXT 74:",
+            "url": "https://vedabase.io/en/library/bg/18/74/",
+            "slug": "74",
+            "number": "74"
+        },
+        {
+            "title": "TEXT 75:",
+            "url": "https://vedabase.io/en/library/bg/18/75/",
+            "slug": "75",
+            "number": "75"
+        },
+        {
+            "title": "TEXT 76:",
+            "url": "https://vedabase.io/en/library/bg/18/76/",
+            "slug": "76",
+            "number": "76"
+        },
+        {
+            "title": "TEXT 77:",
+            "url": "https://vedabase.io/en/library/bg/18/77/",
+            "slug": "77",
+            "number": "77"
+        },
+        {
+            "title": "TEXT 78:",
+            "url": "https://vedabase.io/en/library/bg/18/78/",
+            "slug": "78",
+            "number": "78"
+        }
+    ]
+}
