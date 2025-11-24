@@ -192,63 +192,63 @@ def sb_page() -> rx.Component:
                     width="100%",
                 ),
                 
-                # About the Author Link
-                rx.link(
-                    "About the Author",
-                    href="#",
-                    font_family="Georgia, 'Times New Roman', Times, serif",
-                    font_size="1.2rem",
-                    color="#c0392b",
-                    text_decoration="none",
-                    _hover={"text_decoration": "underline"},
-                    margin_bottom="64px",
-                ),
-                
-                # About the Author Section
-                rx.box(
-                    rx.vstack(
-                        rx.heading(
-                            "About the Author",
-                            size="6",
-                            color="#333",
-                            font_family="Georgia, 'Times New Roman', Times, serif",
-                            margin_bottom="24px",
-                        ),
+                # Bottom Navigation (Vedabase-style)
+                rx.hstack(
+                    # Previous book (Bhagavad-gītā)
+                    rx.link(
                         rx.hstack(
-                            rx.image(
-                                src="/prabhupada.jpg", # Placeholder, assumes image exists or will show broken link icon which is fine for now
-                                width="150px",
-                                height="auto",
-                                border_radius="4px",
-                                border="1px solid #ccc",
+                            rx.icon(
+                                "arrow-left",
+                                size=18,
+                                color="#8b4513",
                             ),
-                            rx.vstack(
-                                rx.text(
-                                    "His Divine Grace A.C. Bhaktivedanta Swami Prabhupāda",
-                                    font_weight="bold",
-                                    font_size="1.1rem",
-                                    color="#333",
-                                    font_family="Georgia, 'Times New Roman', Times, serif",
-                                ),
-                                rx.text(
-                                    "Founder-Ācārya of the International Society for Krishna Consciousness",
-                                    font_size="0.9rem",
-                                    color="#666",
-                                    font_family="Georgia, 'Times New Roman', Times, serif",
-                                ),
-                                align="start",
-                                spacing="2",
+                            rx.text(
+                                "Bhagavad-gītā As It Is",
+                                font_family="Georgia, 'Times New Roman', Times, serif",
+                                font_size="0.95rem",
+                                color="#8b4513",
                             ),
-                            spacing="6",
-                            align="start",
-                            flex_wrap="wrap",
+                            spacing="2",
+                            align="center",
                         ),
-                        align="start",
-                        width="100%",
-                        padding_top="32px",
-                        border_top="1px solid rgba(0,0,0,0.1)",
+                        href="/library/bg",
+                        text_decoration="none",
+                        padding="0.75rem 1.25rem",
+                        background_color="#e8d4b8",
+                        border_radius="6px",
+                        _hover={"background_color": "#d4c4a8"},
+                        transition="all 0.2s",
+                    ),
+                    rx.box(flex="1"),  # Spacer
+                    # Next book (Caitanya-caritāmṛta)
+                    rx.link(
+                        rx.hstack(
+                            rx.text(
+                                "Śrī Caitanya-caritāmṛta",
+                                font_family="Georgia, 'Times New Roman', Times, serif",
+                                font_size="0.95rem",
+                                color="#8b4513",
+                            ),
+                            rx.icon(
+                                "arrow-right",
+                                size=18,
+                                color="#8b4513",
+                            ),
+                            spacing="2",
+                            align="center",
+                        ),
+                        href="/library/cc",
+                        text_decoration="none",
+                        padding="0.75rem 1.25rem",
+                        background_color="#e8d4b8",
+                        border_radius="6px",
+                        _hover={"background_color": "#d4c4a8"},
+                        transition="all 0.2s",
                     ),
                     width="100%",
+                    justify="between",
+                    margin_top="3rem",
+                    margin_bottom="2rem",
                 ),
                 
                 width="100%",
