@@ -126,7 +126,7 @@ class SBVerseState(rx.State):
         return sb_verses.get(key, [])
 
     @rx.var
-    def prev_link(self) -> dict:
+    def prev_link(self) -> dict | None:
         """Get previous link data (title, url)"""
         if self.verse_num == 1:
             # Link to Chapter page
@@ -140,7 +140,7 @@ class SBVerseState(rx.State):
             }
 
     @rx.var
-    def next_link(self) -> dict:
+    def next_link(self) -> dict | None:
         """Get next link data (title, url)"""
         verses = self.verses_in_chapter
         next_verse_num = self.verse_num + 1
