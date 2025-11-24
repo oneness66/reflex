@@ -2,7 +2,7 @@ import reflex as rx
 from ..components.header import tovp_header
 from ..data.sb_verse_content import verse_content
 from ..data.sb import cantos
-from ..data.sb_content import sb_chapters
+from ..data.sb_content import sb_chapters, sb_verses
 
 class SBVerseState(rx.State):
     """State for individual verse pages"""
@@ -118,6 +118,42 @@ class SBVerseState(rx.State):
         if c and "purport" in c:
             return c["purport"].split("\n\n")
         return []
+
+    @rx.var
+    def verses_in_chapter(self) -> list[dict]:
+        """Get all verses in current chapter"""
+        key = f"{self.canto_num}-{self.chapter_num}"
+        return sb_verses.get(key, [])
+
+    @rx.var
+    def prev_link(self) -> dict:
+        """Get previous link data (title, url)"""
+        if self.verse_num == 1:
+            # Link to Chapter page
+            return {"title": self.chapter_title, "url": f"/library/sb/{self.canto_num}/{self.chapter_num}"}
+        else:
+            # Link to previous verse
+            prev_verse_num = self.verse_num - 1
+            return {
+                "title": f"Text {prev_verse_num}", 
+                "url": f"/library/sb/{self.canto_num}/{self.chapter_num}/{prev_verse_num}"
+            }
+
+    @rx.var
+    def next_link(self) -> dict:
+        """Get next link data (title, url)"""
+        verses = self.verses_in_chapter
+        next_verse_num = self.verse_num + 1
+        # Check if next_verse_num is in verses list
+        has_next = any(v["number"] == next_verse_num for v in verses)
+        
+        if has_next:
+             return {
+                "title": f"Text {next_verse_num}", 
+                "url": f"/library/sb/{self.canto_num}/{self.chapter_num}/{next_verse_num}"
+            }
+        else:
+            return None
 
 
 def sb_verse_page() -> rx.Component:
@@ -379,6 +415,63 @@ def sb_verse_page() -> rx.Component:
                         border_radius="8px",
                         padding="2rem",
                     ),
+                ),
+                
+                # Footer Navigation Buttons
+                rx.hstack(
+                    rx.cond(
+                        SBVerseState.prev_link,
+                        rx.link(
+                            rx.button(
+                                rx.hstack(
+                                    rx.icon("arrow-left", size=16),
+                                    rx.text(SBVerseState.prev_link["title"]),
+                                    spacing="2",
+                                    align="center",
+                                ),
+                                bg="#e6d0b3",
+                                color="#000",
+                                font_family="'Noto Serif', serif",
+                                font_size="14px",
+                                padding="12px 20px",
+                                border_radius="6px",
+                                _hover={"bg": "#d4a574"},
+                                cursor="pointer",
+                            ),
+                            href=SBVerseState.prev_link["url"],
+                            text_decoration="none",
+                        ),
+                        rx.box(), # Empty box if no prev link
+                    ),
+                    rx.spacer(),
+                    rx.cond(
+                        SBVerseState.next_link,
+                        rx.link(
+                            rx.button(
+                                rx.hstack(
+                                    rx.text(SBVerseState.next_link["title"]),
+                                    rx.icon("arrow-right", size=16),
+                                    spacing="2",
+                                    align="center",
+                                ),
+                                bg="#e6d0b3",
+                                color="#000",
+                                font_family="'Noto Serif', serif",
+                                font_size="14px",
+                                padding="12px 20px",
+                                border_radius="6px",
+                                _hover={"bg": "#d4a574"},
+                                cursor="pointer",
+                            ),
+                            href=SBVerseState.next_link["url"],
+                            text_decoration="none",
+                        ),
+                        rx.box(), # Empty box if no next link
+                    ),
+                    width="100%",
+                    padding_top="32px",
+                    border_top="1px solid rgba(0,0,0,0.1)",
+                    margin_top="32px",
                 ),
                 
                 width="100%",

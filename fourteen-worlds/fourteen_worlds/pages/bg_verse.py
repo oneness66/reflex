@@ -96,7 +96,7 @@ class BGVerseState(rx.State):
         return []
     
     @rx.var
-    def prev_verse_link(self) -> dict:
+    def prev_verse_link(self) -> dict | None:
         """Get previous verse link data"""
         from ..data.bg_content import bg_verses_metadata
         
@@ -126,7 +126,7 @@ class BGVerseState(rx.State):
         return None
     
     @rx.var
-    def next_verse_link(self) -> dict:
+    def next_verse_link(self) -> dict | None:
         """Get next verse link data"""
         from ..data.bg_content import bg_verses_metadata
         

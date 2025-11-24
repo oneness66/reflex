@@ -12,19 +12,22 @@ class LibraryState(rx.State):
 def library_button(text: str, count: str = None, is_active: bool = False) -> rx.Component:
     return rx.button(
         rx.hstack(
-            rx.text(text),
+            rx.text(text, font_size="0.9rem"),
             rx.cond(
                 count,
-                rx.text(f"({count})", opacity=0.7),
+                rx.text(f"({count})", opacity=0.7, font_size="0.8rem"),
             ),
             spacing="2",
+            align="center",
         ),
         variant=rx.cond(is_active, "solid", "ghost"),
         color_scheme="brown",
         background=rx.cond(is_active, "#d2a679", "rgba(0,0,0,0.05)"),
         color=rx.cond(is_active, "black", "#5c4033"),
-        padding_y="1.5rem",
-        padding_x="1.5rem",
+        padding_y="0.5rem",
+        padding_x="1rem",
+        height="auto",
+        min_height="32px",
         border_radius="4px",
         _hover={"background": rx.cond(is_active, "#c09568", "rgba(0,0,0,0.1)")},
         on_click=lambda: LibraryState.set_tab(text),
@@ -102,23 +105,23 @@ def chapters_page() -> rx.Component:
                     library_button("Books", is_active=LibraryState.active_tab == "Books"),
                     library_button("Transcripts", "3703", is_active=LibraryState.active_tab == "Transcripts"),
                     library_button("Letters", "6587", is_active=LibraryState.active_tab == "Letters"),
-                    spacing="4",
+                    spacing="3",
                     width="100%",
                     max_width="1200px",
                     margin="0 auto",
-                    padding_top="2rem",
+                    padding_top="1.5rem",
                 ),
                 
                 # Main Heading
                 rx.box(
                     rx.heading(
                         "Library", 
-                        size="9", 
+                        size="8", 
                         color="#1a1a1a",
                         font_family="Times New Roman, serif",
                         font_weight="400",
-                        margin_top="1rem",
-                        margin_bottom="2rem",
+                        margin_top="0.5rem",
+                        margin_bottom="1rem",
                     ),
                     width="100%",
                     max_width="1200px",
@@ -127,7 +130,7 @@ def chapters_page() -> rx.Component:
                 
                 width="100%",
                 padding_x="2rem",
-                padding_bottom="3rem",
+                padding_bottom="1.5rem",
             ),
             width="100%",
             background="#f3e5ab", # Beige background similar to Vedabase

@@ -273,7 +273,7 @@ def sb_canto_page() -> rx.Component:
                 ),
                 
                 width="100%",
-                max_width="1000px",
+                max_width="100%",
                 padding="40px",
             ),
             width="100%",

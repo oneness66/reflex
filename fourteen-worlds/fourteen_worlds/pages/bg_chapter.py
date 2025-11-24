@@ -91,6 +91,28 @@ def verse_link(verse: dict) -> rx.Component:
         _hover={"text_decoration": "none"},
     )
 
+def verse_link_sanskrit(verse: dict) -> rx.Component:
+    return rx.link(
+        rx.box(
+            rx.text(
+                verse["title"],
+                font_family="Georgia, 'Times New Roman', Times, serif",
+                font_size="1.2rem",
+                color="#c0392b",  # Vedabase reddish-brown
+                font_weight="400",
+                display="block", # Block display for Sanskrit only view
+                line_height="1.6",
+            ),
+            width="100%",
+            margin_bottom="16px",
+            display="block",
+        ),
+        href=f"/library/bg/{BGChapterState.chapter_num}/{verse['slug']}", # Local link
+        text_decoration="none",
+        width="100%",
+        _hover={"text_decoration": "none"},
+    )
+
 def bg_chapter_page() -> rx.Component:
     return rx.vstack(
         tovp_header(),
@@ -142,12 +164,182 @@ def bg_chapter_page() -> rx.Component:
                     color="#000000",
                 ),
                 
-                # Verse List
-                rx.vstack(
-                    rx.foreach(BGChapterState.verses, verse_link),
-                    spacing="4",
+                # Tabbed interface for Verses and other content
+                rx.tabs.root(
+                    # Tab navigation with arrows
+                    rx.hstack(
+                        # Left scroll arrow
+                        rx.box(
+                            rx.icon(
+                                "chevron-left",
+                                size=20,
+                                color="white",
+                            ),
+                            cursor="pointer",
+                            on_click=rx.call_script("document.querySelector('.bg-chapter-tab-scroll-container').scrollBy({left: -200, behavior: 'smooth'})"),
+                            padding="0.75rem 1rem",
+                            _hover={"background_color": "rgba(0,0,0,0.1)"},
+                            display="flex",
+                            align_items="center",
+                            justify_content="center",
+                        ),
+                        # Scrollable tabs list
+                        rx.tabs.list(
+                            rx.tabs.trigger(
+                                "Srila Prabhupada",
+                                value="prabhupada",
+                                color="white",
+                                background_color="transparent",
+                                padding="0.5rem 1rem",
+                                white_space="nowrap",
+                                _hover={"background_color": "rgba(255,255,255,0.1)"},
+                                _selected={"background_color": "rgba(0,0,0,0.2)", "font_weight": "bold"},
+                            ),
+                            rx.tabs.trigger(
+                                "Original Sanskrit",
+                                value="sanskrit",
+                                color="white",
+                                background_color="transparent",
+                                padding="0.5rem 1rem",
+                                white_space="nowrap",
+                                _hover={"background_color": "rgba(255,255,255,0.1)"},
+                                _selected={"background_color": "rgba(0,0,0,0.2)", "font_weight": "bold"},
+                            ),
+                            rx.tabs.trigger(
+                                "Other Translations",
+                                value="other_translations",
+                                color="white",
+                                background_color="transparent",
+                                padding="0.5rem 1rem",
+                                white_space="nowrap",
+                                _hover={"background_color": "rgba(255,255,255,0.1)"},
+                                _selected={"background_color": "rgba(0,0,0,0.2)", "font_weight": "bold"},
+                            ),
+                            rx.tabs.trigger(
+                                "Commentaries",
+                                value="commentaries",
+                                color="white",
+                                background_color="transparent",
+                                padding="0.5rem 1rem",
+                                white_space="nowrap",
+                                _hover={"background_color": "rgba(255,255,255,0.1)"},
+                                _selected={"background_color": "rgba(0,0,0,0.2)", "font_weight": "bold"},
+                            ),
+                            rx.tabs.trigger(
+                                "Sri Sampati Dasa Videos",
+                                value="videos",
+                                color="white",
+                                background_color="transparent",
+                                padding="0.5rem 1rem",
+                                white_space="nowrap",
+                                _hover={"background_color": "rgba(255,255,255,0.1)"},
+                                _selected={"background_color": "rgba(0,0,0,0.2)", "font_weight": "bold"},
+                            ),
+                            display="flex",
+                            overflow_x="auto",
+                            overflow_y="hidden",
+                            flex="1",
+                            class_name="bg-chapter-tab-scroll-container",
+                            css={
+                                "scrollbar-width": "none",
+                                "&::-webkit-scrollbar": {"display": "none"},
+                            },
+                        ),
+                        # Right scroll arrow
+                        rx.box(
+                            rx.icon(
+                                "chevron-right",
+                                size=20,
+                                color="white",
+                            ),
+                            cursor="pointer",
+                            on_click=rx.call_script("document.querySelector('.bg-chapter-tab-scroll-container').scrollBy({left: 200, behavior: 'smooth'})"),
+                            padding="0.75rem 1rem",
+                            _hover={"background_color": "rgba(0,0,0,0.1)"},
+                            display="flex",
+                            align_items="center",
+                            justify_content="center",
+                        ),
+                        spacing="0",
+                        width="100%",
+                        background_color="#3c9fa8",
+                        border_radius="8px 8px 0 0",
+                        align_items="center",
+                    ),
+                    # Srila Prabhupada tab content
+                    rx.tabs.content(
+                        rx.vstack(
+                            rx.foreach(BGChapterState.verses, verse_link),
+                            spacing="4",
+                            width="100%",
+                            align="start",
+                            padding="1.5rem",
+                        ),
+                        value="prabhupada",
+                        background_color="white",
+                        border_radius="0 0 8px 8px",
+                        border="1px solid #e0e0e0",
+                        width="100%",
+                    ),
+                    # Original Sanskrit tab content
+                    rx.tabs.content(
+                        rx.vstack(
+                            rx.foreach(BGChapterState.verses, verse_link_sanskrit),
+                            spacing="4",
+                            width="100%",
+                            align="start",
+                            padding="1.5rem",
+                        ),
+                        value="sanskrit",
+                        background_color="white",
+                        border_radius="0 0 8px 8px",
+                        border="1px solid #e0e0e0",
+                        width="100%",
+                    ),
+                    # Other Translations tab content
+                    rx.tabs.content(
+                        rx.text(
+                            "Other translations will be available soon.",
+                            padding="2rem",
+                            color="gray",
+                            font_family="Georgia, 'Times New Roman', Times, serif",
+                        ),
+                        value="other_translations",
+                        background_color="white",
+                        border_radius="0 0 8px 8px",
+                        border="1px solid #e0e0e0",
+                        width="100%",
+                    ),
+                    # Commentaries tab content
+                    rx.tabs.content(
+                        rx.text(
+                            "Commentaries will be available soon.",
+                            padding="2rem",
+                            color="gray",
+                            font_family="Georgia, 'Times New Roman', Times, serif",
+                        ),
+                        value="commentaries",
+                        background_color="white",
+                        border_radius="0 0 8px 8px",
+                        border="1px solid #e0e0e0",
+                        width="100%",
+                    ),
+                    # Videos tab content
+                    rx.tabs.content(
+                        rx.text(
+                            "Sri Sampati Dasa videos for this chapter will be available soon.",
+                            padding="2rem",
+                            color="gray",
+                            font_family="Georgia, 'Times New Roman', Times, serif",
+                        ),
+                        value="videos",
+                        background_color="white",
+                        border_radius="0 0 8px 8px",
+                        border="1px solid #e0e0e0",
+                        width="100%",
+                    ),
+                    default_value="prabhupada",
                     width="100%",
-                    align="start",
                     margin_bottom="64px",
                 ),
                 
@@ -208,7 +400,7 @@ def bg_chapter_page() -> rx.Component:
                 ),
                 
                 width="100%",
-                max_width="1000px",
+                max_width="100%",
                 padding="40px",
             ),
             width="100%",
