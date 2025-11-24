@@ -1,6 +1,8 @@
 import reflex as rx
 from ..components.header import tovp_header
 from ..data.sb import cantos
+from ..components.video_card import render_video_card
+from ..pages.vedic_science import video_categories
 
 def canto_link(canto: dict) -> rx.Component:
     return rx.link(
@@ -51,53 +53,6 @@ def sb_page() -> rx.Component:
                     width="100%",
                 ),
                 
-                # View Options Buttons
-                rx.hstack(
-                    rx.button(
-                        "Default View",
-                        bg="#dcbfa3",
-                        color="#333",
-                        font_family="Georgia, 'Times New Roman', Times, serif",
-                        font_size="14px",
-                        padding="8px 16px",
-                        border_radius="4px",
-                        _hover={"bg": "#d4a574"},
-                        cursor="pointer",
-                    ),
-                    rx.menu.root(
-                        rx.menu.trigger(
-                            rx.button(
-                                rx.hstack(
-                                    rx.icon("languages", size=16),
-                                    rx.text("Dual Language View"),
-                                    rx.icon("chevron-down", size=16),
-                                    spacing="2",
-                                    align="center",
-                                ),
-                                bg="#f0e0c9",
-                                color="#333",
-                                font_family="Georgia, 'Times New Roman', Times, serif",
-                                font_size="14px",
-                                padding="8px 16px",
-                                border_radius="4px",
-                                border="1px solid #dcbfa3",
-                                _hover={"bg": "#e6d0b3"},
-                                cursor="pointer",
-                            ),
-                        ),
-                        rx.menu.content(
-                            rx.menu.item("English"),
-                            rx.menu.item("Hindi"),
-                            rx.menu.item("Russian"),
-                            bg="#fff",
-                            border="1px solid #e0e0e0",
-                        ),
-                    ),
-                    spacing="3",
-                    margin_bottom="48px",
-                    width="100%",
-                ),
-                
                 # Title
                 rx.heading(
                     "Śrīmad-Bhāgavatam",
@@ -120,13 +75,121 @@ def sb_page() -> rx.Component:
                     width="100%",
                 ),
                 
-                # Canto List
-                rx.vstack(
-                    *[canto_link(canto) for canto in cantos],
-                    spacing="4",
+                # Tabs for different versions and videos
+                rx.tabs.root(
+                    # Tab navigation with arrows
+                    rx.hstack(
+                        # Left scroll arrow
+                        rx.box(
+                            rx.icon(
+                                "chevron-left",
+                                size=20,
+                                color="white",
+                            ),
+                            cursor="pointer",
+                            on_click=rx.call_script("document.querySelector('.tab-scroll-container').scrollBy({left: -200, behavior: 'smooth'})"),
+                            padding="0.75rem 1rem",
+                            _hover={"background_color": "rgba(0,0,0,0.1)"},
+                            display="flex",
+                            align_items="center",
+                            justify_content="center",
+                        ),
+                        # Scrollable tabs list
+                        rx.tabs.list(
+                            rx.tabs.trigger(
+                                "Śrīmad-Bhāgavatam",
+                                value="sb_cantos",
+                                color="white",
+                                background_color="transparent",
+                                padding="0.5rem 1rem",
+                                white_space="nowrap",
+                                _hover={"background_color": "rgba(255,255,255,0.1)"},
+                                _selected={"background_color": "rgba(0,0,0,0.2)", "font_weight": "bold"},
+                            ),
+                            *[
+                                rx.tabs.trigger(
+                                    speaker,
+                                    value=speaker,
+                                    color="white",
+                                    background_color="transparent",
+                                    padding="0.5rem 1rem",
+                                    white_space="nowrap",
+                                    _hover={"background_color": "rgba(255,255,255,0.1)"},
+                                    _selected={"background_color": "rgba(0,0,0,0.2)", "font_weight": "bold"},
+                                )
+                                for speaker in video_categories.keys()
+                            ],
+                            display="flex",
+                            overflow_x="auto",
+                            overflow_y="hidden",
+                            flex="1",
+                            class_name="tab-scroll-container",
+                            css={
+                                "scrollbar-width": "none",
+                                "&::-webkit-scrollbar": {"display": "none"},
+                            },
+                        ),
+                        # Right scroll arrow
+                        rx.box(
+                            rx.icon(
+                                "chevron-right",
+                                size=20,
+                                color="white",
+                            ),
+                            cursor="pointer",
+                            on_click=rx.call_script("document.querySelector('.tab-scroll-container').scrollBy({left: 200, behavior: 'smooth'})"),
+                            padding="0.75rem 1rem",
+                            _hover={"background_color": "rgba(0,0,0,0.1)"},
+                            display="flex",
+                            align_items="center",
+                            justify_content="center",
+                        ),
+                        spacing="0",
+                        width="100%",
+                        background_color="#3c9fa8",
+                        border_radius="8px 8px 0 0",
+                        align_items="center",
+                    ),
+                    # Cantos tab content
+                    rx.tabs.content(
+                        rx.vstack(
+                            *[canto_link(canto) for canto in cantos],
+                            spacing="4",
+                            width="100%",
+                            align="start",
+                            padding="1.5rem",
+                        ),
+                        value="sb_cantos",
+                        background_color="white",
+                        border_radius="0 0 8px 8px",
+                        border="1px solid #e0e0e0",
+                        width="100%",
+                    ),
+                    # Video tabs content
+                    *[
+                        rx.tabs.content(
+                            rx.grid(
+                                *[render_video_card(video) for video in videos],
+                                columns=rx.breakpoints(initial="1", sm="2", md="3"),
+                                spacing="4",
+                                width="100%",
+                                padding="1.5rem",
+                            ) if videos else rx.text(
+                                "No videos available in this category yet.",
+                                padding="2rem",
+                                color="gray",
+                                font_family="Georgia, 'Times New Roman', Times, serif",
+                            ),
+                            value=speaker,
+                            background_color="white",
+                            border_radius="0 0 8px 8px",
+                            border="1px solid #e0e0e0",
+                            width="100%",
+                        )
+                        for speaker, videos in video_categories.items()
+                    ],
+                    default_value="sb_cantos",
                     width="100%",
-                    align="start",
-                    margin_bottom="24px",
                 ),
                 
                 # About the Author Link

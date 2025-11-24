@@ -93,21 +93,68 @@ def bg_page() -> rx.Component:
                 
                 # Tabs for different versions
                 rx.tabs.root(
-                    rx.tabs.list(
-                        *[
-                            rx.tabs.trigger(
-                                version_name,
-                                value=version_name,
+                    # Tab navigation with arrows
+                    rx.hstack(
+                        # Left scroll arrow
+                        rx.box(
+                            rx.icon(
+                                "chevron-left",
+                                size=20,
                                 color="white",
-                                background_color="transparent",
-                                _hover={"background_color": "rgba(255,255,255,0.1)"},
-                                _active={"background_color": "rgba(0,0,0,0.2)", "font_weight": "bold"},
-                            )
-                            for version_name in bg_versions.keys()
-                        ],
-                        background_color="#3c9fa8",  # Teal color matching cosmology videos
+                            ),
+                            cursor="pointer",
+                            on_click=rx.call_script("document.querySelector('.bg-tab-scroll-container').scrollBy({left: -200, behavior: 'smooth'})"),
+                            padding="0.75rem 1rem",
+                            _hover={"background_color": "rgba(0,0,0,0.1)"},
+                            display="flex",
+                            align_items="center",
+                            justify_content="center",
+                        ),
+                        # Scrollable tabs list
+                        rx.tabs.list(
+                            *[
+                                rx.tabs.trigger(
+                                    version_name,
+                                    value=version_name,
+                                    color="white",
+                                    background_color="transparent",
+                                    padding="0.5rem 1rem",
+                                    white_space="nowrap",
+                                    _hover={"background_color": "rgba(255,255,255,0.1)"},
+                                    _selected={"background_color": "rgba(0,0,0,0.2)", "font_weight": "bold"},
+                                )
+                                for version_name in bg_versions.keys()
+                            ],
+                            display="flex",
+                            overflow_x="auto",
+                            overflow_y="hidden",
+                            flex="1",
+                            class_name="bg-tab-scroll-container",
+                            css={
+                                "scrollbar-width": "none",
+                                "&::-webkit-scrollbar": {"display": "none"},
+                            },
+                        ),
+                        # Right scroll arrow
+                        rx.box(
+                            rx.icon(
+                                "chevron-right",
+                                size=20,
+                                color="white",
+                            ),
+                            cursor="pointer",
+                            on_click=rx.call_script("document.querySelector('.bg-tab-scroll-container').scrollBy({left: 200, behavior: 'smooth'})"),
+                            padding="0.75rem 1rem",
+                            _hover={"background_color": "rgba(0,0,0,0.1)"},
+                            display="flex",
+                            align_items="center",
+                            justify_content="center",
+                        ),
+                        spacing="0",
+                        width="100%",
+                        background_color="#3c9fa8",
                         border_radius="8px 8px 0 0",
-                        padding="0.5rem",
+                        align_items="center",
                     ),
                     *[
                         rx.tabs.content(

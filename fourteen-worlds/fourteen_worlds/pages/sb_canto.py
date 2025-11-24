@@ -98,53 +98,6 @@ def sb_canto_page() -> rx.Component:
                     width="100%",
                 ),
                 
-                # View Options Buttons
-                rx.hstack(
-                    rx.button(
-                        "Default View",
-                        bg="#dcbfa3",
-                        color="#333",
-                        font_family="'Noto Serif', serif",
-                        font_size="14px",
-                        padding="8px 16px",
-                        border_radius="4px",
-                        _hover={"bg": "#d4a574"},
-                        cursor="pointer",
-                    ),
-                    rx.menu.root(
-                        rx.menu.trigger(
-                            rx.button(
-                                rx.hstack(
-                                    rx.icon("languages", size=16),
-                                    rx.text("Dual Language View"),
-                                    rx.icon("chevron-down", size=16),
-                                    spacing="2",
-                                    align="center",
-                                ),
-                                bg="#f0e0c9",
-                                color="#333",
-                                font_family="'Noto Serif', serif",
-                                font_size="14px",
-                                padding="8px 16px",
-                                border_radius="4px",
-                                border="1px solid #dcbfa3",
-                                _hover={"bg": "#e6d0b3"},
-                                cursor="pointer",
-                            ),
-                        ),
-                        rx.menu.content(
-                            rx.menu.item("English"),
-                            rx.menu.item("Hindi"),
-                            rx.menu.item("Russian"),
-                            bg="#fff",
-                            border="1px solid #e0e0e0",
-                        ),
-                    ),
-                    spacing="3",
-                    margin_bottom="48px",
-                    width="100%",
-                ),
-                
                 # Canto Title
                 rx.heading(
                     SBCantoState.canto_title,
