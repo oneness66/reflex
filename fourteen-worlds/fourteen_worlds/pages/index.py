@@ -289,6 +289,7 @@ def index() -> rx.Component:
                 padding_y="2rem",
             ),
             max_width="900px",
+            margin="0 auto",
         ),
         ),
         background="#ffffff",

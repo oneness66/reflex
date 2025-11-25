@@ -77,18 +77,67 @@ class BTGState(State):
                 if file_path.exists():
                     with open(file_path, "r", encoding="utf-8") as f:
                         content = f.read()
-                        # Basic extraction of body content if it's a full HTML doc
-                        if "<body" in content:
-                            start = content.find("<body")
-                            end = content.find("</body>")
-                            if start != -1 and end != -1:
-                                # Try to find the closing > of body tag
-                                body_tag_end = content.find(">", start) + 1
-                                article.content = content[body_tag_end:end]
+                        
+                        # Try to extract only the article content wrapper
+                        # Look for common WordPress/Elementor content containers
+                        content_markers = [
+                            ('class="tts_content_wrapper', '</div>'),
+                            ('data-widget_type="theme-post-content', '</div>'),
+                            ('class="elementor-widget-container"', '</div>'),
+                        ]
+                        
+                        extracted = False
+                        for start_marker, end_marker in content_markers:
+                            if start_marker in content:
+                                # Find the start of the content wrapper
+                                start_idx = content.find(start_marker)
+                                if start_idx != -1:
+                                    # Find the opening tag's end
+                                    opening_tag_end = content.find('>', start_idx) + 1
+                                    # Try to find the next substantial paragraph or content
+                                    # Look for <p> or <figure> tags after the opening
+                                    content_start = content.find('<p', opening_tag_end)
+                                    if content_start == -1:
+                                        content_start = content.find('<figure', opening_tag_end)
+                                    
+                                    if content_start != -1:
+                                        # Now find where this content wrapper ends
+                                        # We need to carefully find the matching closing div
+                                        # For simplicity, let's extract a large chunk and clean it
+                                        temp_content = content[content_start:]
+                                        
+                                        # Remove all WordPress navigation menus and headers
+                                        # Look for content until we hit social sharing or related articles
+                                        stop_markers = [
+                                            'class="heateor_sss_sharing_container',
+                                            'Related Articles',
+                                            'Table of Contents',
+                                            'class="elementor-nav-menu',
+                                            'class="elementor-element-778f4279',  # Table of contents element
+                                        ]
+                                        
+                                        end_idx = len(temp_content)
+                                        for marker in stop_markers:
+                                            marker_pos = temp_content.find(marker)
+                                            if marker_pos != -1 and marker_pos < end_idx:
+                                                end_idx = marker_pos
+                                        
+                                        article.content = temp_content[:end_idx]
+                                        extracted = True
+                                        break
+                        
+                        # Fallback to body extraction if content wrapper not found
+                        if not extracted:
+                            if "<body" in content:
+                                start = content.find("<body")
+                                end = content.find("</body>")
+                                if start != -1 and end != -1:
+                                    body_tag_end = content.find(">", start) + 1
+                                    article.content = content[body_tag_end:end]
+                                else:
+                                    article.content = content
                             else:
                                 article.content = content
-                        else:
-                            article.content = content
             except Exception as e:
                 print(f"Error loading article content: {e}")
                 article.content = "Error loading content."

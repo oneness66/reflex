@@ -171,66 +171,9 @@ def articles_page() -> rx.Component:
         rx.vstack(
             tovp_header(),
             
-            # Hero Section
-            rx.box(
-                rx.vstack(
-                    rx.heading(
-                        "VEDIC SCIENCE",
-                        size="9",
-                        color="white",
-                        font_weight="bold",
-                        text_align="center",
-                        letter_spacing="0.1em",
-                    ),
-                    rx.text(
-                        "Exploring the Universe through the eyes of the Vedas",
-                        size="5",
-                        color="white",
-                        text_align="center",
-                        margin_top="1rem",
-                    ),
-                    padding="6rem 2rem",
-                    align="center",
-                    justify="center",
-                    width="100%",
-                    background="linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/bhu-mandala/img/bg-stars.jpg')",
-                    background_size="cover",
-                    background_position="center",
-                ),
-                width="100%",
-            ),
-            
             # Content Container
             rx.container(
                 rx.vstack(
-                    # Intro Text
-                    rx.text(
-                        "Welcome to the Vedic Science page. Vedic refers to the ancient culture of India and the sacred texts of wisdom called the Vedas which encompass all branches of human experience and knowledge, material and spiritual.",
-                        size="4",
-                        color="#444",
-                        line_height="1.8",
-                        text_align="center",
-                        margin_y="3rem",
-                        max_width="800px",
-                    ),
-                    
-                    rx.divider(margin_bottom="3rem"),
-
-                    # Recent Articles Section (LinkedIn)
-                    rx.box(
-                        rx.heading("RECENT ARTICLES", size="6", color="#333", margin_bottom="1.5rem", border_bottom="2px solid #gold"),
-                        rx.grid(
-                            *[render_linkedin_card(article) for article in linkedin_articles],
-                            columns=rx.breakpoints(initial="1", sm="2"),
-                            spacing="6",
-                            width="100%",
-                        ),
-                        margin_bottom="4rem",
-                        width="100%",
-                    ),
-                    
-                    rx.divider(margin_bottom="3rem"),
-                    
                     # Grid Layout for Categories
                     rx.grid(
                         # Vedic Cosmology Section
