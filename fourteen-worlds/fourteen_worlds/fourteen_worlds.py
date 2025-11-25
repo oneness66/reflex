@@ -34,7 +34,7 @@ app.add_page(sb_verse_page, route="/library/sb/[canto]/[chapter]/[verse]", title
 app.add_page(bg_page, route="/library/bg", title="Bhagavad-gītā As It Is - Fourteen Worlds")
 app.add_page(bg_chapter_page, route="/library/bg/[chapter]", title="BG Chapter - Fourteen Worlds")
 app.add_page(bg_verse_page, route="/library/bg/[chapter]/[verse]", title="BG Verse - Fourteen Worlds")
-app.add_page(photos_page, route="/photos", title="Photos - Fourteen Worlds")
+app.add_page(photos_page, route="/backtogodhead", title="Back To Godhead - Fourteen Worlds")
 app.add_page(vedic_science_page, route="/vedic-science", title="Vedic Science - Fourteen Worlds")
 
 # Dynamic route for Vedic Science topics

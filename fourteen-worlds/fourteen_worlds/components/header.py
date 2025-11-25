@@ -150,7 +150,7 @@ def tovp_header() -> rx.Component:
                     rx.link("ARTICLES", href="/articles", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
                     rx.link("MEDIA", href="/media", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
                     rx.link("LIBRARY", href="/library", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
-                    rx.link("PHOTOS", href="/photos", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
+                    rx.link("BACK TO GODHEAD", href="/backtogodhead", color="#333", font_weight="bold", font_size="0.9rem", text_decoration="none", padding="0.5rem", _hover={"color": "#d4af37"}),
                     spacing="4",
                 ),
                 
@@ -253,13 +253,13 @@ def classic_header() -> rx.Component:
                 ),
                 rx.link(
                     rx.box(
-                        rx.text("Photos", size="3"),
+                        rx.text("Back To Godhead", size="3"),
                         padding="0.75rem 1.5rem",
                         background="#f0f0f0",
                         border_radius="0",
                         _hover={"background": "#e0e0e0"},
                     ),
-                    href="/photos",
+                    href="/backtogodhead",
                     text_decoration="none",
                     color="inherit",
                 ),
