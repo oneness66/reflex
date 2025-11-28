@@ -6,7 +6,7 @@ from reflex.utils.imports import ImportVar
 from reflex.vars.base import LiteralVar, Var
 from reflex.vars.sequence import LiteralStringVar, StringVar
 
-LUCIDE_LIBRARY = "lucide-react@0.553.0"
+LUCIDE_LIBRARY = "lucide-react@0.555.0"
 
 
 class LucideIconComponent(Component):
@@ -386,6 +386,7 @@ LUCIDE_ICON_LIST = [
     "calendar_sync",
     "calendar_x_2",
     "calendar_x",
+    "calendars",
     "calendar",
     "camera_off",
     "camera",
@@ -764,6 +765,7 @@ LUCIDE_ICON_LIST = [
     "filter_x",
     "filter",
     "fingerprint",
+    "fingerprint_pattern",
     "fire_extinguisher",
     "fish_off",
     "fish_symbol",
@@ -821,6 +823,7 @@ LUCIDE_ICON_LIST = [
     "folders",
     "footprints",
     "forklift",
+    "form",
     "forward",
     "frame",
     "framer",
@@ -1749,6 +1752,8 @@ LUCIDE_ICON_LIST = [
     "warehouse",
     "washing_machine",
     "watch",
+    "waves_arrow_down",
+    "waves_arrow_up",
     "waves_ladder",
     "waves",
     "waypoints",
@@ -1785,4 +1790,7 @@ LUCIDE_ICON_LIST = [
 
 # The default transformation of some icon names doesn't match how the
 # icons are exported from Lucide. Manual overrides can go here.
-LUCIDE_ICON_MAPPING_OVERRIDE = {"grid_3x2": "Grid3x2Icon"}
+LUCIDE_ICON_MAPPING_OVERRIDE = {
+    "grid_3x2": "Grid3x2Icon",
+    "fingerprint": "FingerprintPattern",
+}
